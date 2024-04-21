@@ -1,0 +1,299 @@
+2024-04-07 10:26:22,994 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-07 10:43:37,129 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-07 10:44:58,225 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-07 10:48:39,500 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-07 10:49:15,177 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-07 10:53:50,969 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-08 11:56:52,288 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 13:06:38,413 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 13:07:54,849 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 13:08:51,124 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 13:09:51,199 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 13:13:44,899 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 13:20:49,996 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 13:20:50,062 - RS [INFO] - Found gpu 0, used memory 2074652672.
+2024-04-09 13:20:50,068 - RS [INFO] - Running with args:
+2024-04-09 13:20:50,068 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 13:20:50,068 - RS [INFO] - Seeds: []
+2024-04-09 13:58:06,622 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 13:58:06,671 - RS [INFO] - Found gpu 0, used memory 2082320384.
+2024-04-09 13:58:06,672 - RS [INFO] - Running with args:
+2024-04-09 13:58:06,673 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 13:58:06,673 - RS [INFO] - Seeds: []
+2024-04-09 13:58:24,706 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 13:58:24,747 - RS [INFO] - Found gpu 0, used memory 2082320384.
+2024-04-09 13:58:24,749 - RS [INFO] - Running with args:
+2024-04-09 13:58:24,749 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 13:58:24,749 - RS [INFO] - Seeds: []
+2024-04-09 13:58:44,507 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 13:58:44,544 - RS [INFO] - Found gpu 0, used memory 2082320384.
+2024-04-09 13:58:44,546 - RS [INFO] - Running with args:
+2024-04-09 13:58:44,546 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 13:58:44,546 - RS [INFO] - Seeds: []
+2024-04-09 14:00:00,852 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:00:00,901 - RS [INFO] - Found gpu 0, used memory 2094772224.
+2024-04-09 14:00:00,903 - RS [INFO] - Running with args:
+2024-04-09 14:00:00,903 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:00:00,903 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:00:05,944 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:03:03,350 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:03:03,388 - RS [INFO] - Found gpu 0, used memory 2092478464.
+2024-04-09 14:03:03,390 - RS [INFO] - Running with args:
+2024-04-09 14:03:03,390 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:03:03,390 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:03:03,390 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:04:06,991 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:04:07,035 - RS [INFO] - Found gpu 0, used memory 2092871680.
+2024-04-09 14:04:07,036 - RS [INFO] - Running with args:
+2024-04-09 14:04:07,037 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:04:07,037 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:04:07,037 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:04:07,038 - RS [INFO] - The model has 0 trainable parameters
+2024-04-09 14:08:31,370 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:08:31,412 - RS [INFO] - Found gpu 0, used memory 2096115712.
+2024-04-09 14:08:31,413 - RS [INFO] - Running with args:
+2024-04-09 14:08:31,413 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:08:31,414 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:08:31,414 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:08:31,414 - RS [INFO] - The model has 0 trainable parameters
+2024-04-09 14:19:16,602 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:19:16,641 - RS [INFO] - Found gpu 0, used memory 2117443584.
+2024-04-09 14:19:16,643 - RS [INFO] - Running with args:
+2024-04-09 14:19:16,643 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:19:16,643 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:19:16,643 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:21:17,523 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:21:17,564 - RS [INFO] - Found gpu 0, used memory 2126749696.
+2024-04-09 14:21:17,565 - RS [INFO] - Running with args:
+2024-04-09 14:21:17,565 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:21:17,565 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:21:17,566 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:21:56,313 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:21:56,360 - RS [INFO] - Found gpu 0, used memory 2126749696.
+2024-04-09 14:21:56,362 - RS [INFO] - Running with args:
+2024-04-09 14:21:56,362 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:21:56,362 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:21:56,362 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:23:28,895 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:23:28,931 - RS [INFO] - Found gpu 0, used memory 2127773696.
+2024-04-09 14:23:28,933 - RS [INFO] - Running with args:
+2024-04-09 14:23:28,933 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:23:28,933 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:23:28,934 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:25:54,223 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:25:54,267 - RS [INFO] - Found gpu 0, used memory 2087460864.
+2024-04-09 14:25:54,268 - RS [INFO] - Running with args:
+2024-04-09 14:25:54,268 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:25:54,268 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:25:54,269 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:26:39,214 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:26:39,251 - RS [INFO] - Found gpu 0, used memory 2087460864.
+2024-04-09 14:26:39,252 - RS [INFO] - Running with args:
+2024-04-09 14:26:39,252 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:26:39,253 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:26:39,253 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:26:39,529 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 14:29:12,559 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:29:12,606 - RS [INFO] - Found gpu 0, used memory 2108661760.
+2024-04-09 14:29:12,607 - RS [INFO] - Running with args:
+2024-04-09 14:29:12,607 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:29:12,608 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:29:12,608 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:29:12,852 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 14:29:31,062 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:29:31,106 - RS [INFO] - Found gpu 0, used memory 1594728448.
+2024-04-09 14:29:31,107 - RS [INFO] - Running with args:
+2024-04-09 14:29:31,108 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:29:31,108 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:29:31,108 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:29:31,351 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 14:29:56,891 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:29:56,940 - RS [INFO] - Found gpu 0, used memory 1585836032.
+2024-04-09 14:29:56,942 - RS [INFO] - Running with args:
+2024-04-09 14:29:56,942 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:29:56,942 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:29:56,942 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:29:57,175 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 14:30:29,260 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:30:29,308 - RS [INFO] - Found gpu 0, used memory 1589112832.
+2024-04-09 14:30:29,310 - RS [INFO] - Running with args:
+2024-04-09 14:30:29,310 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:30:29,310 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:30:29,310 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:30:29,540 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 14:31:28,450 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:31:28,494 - RS [INFO] - Found gpu 0, used memory 1589112832.
+2024-04-09 14:31:28,496 - RS [INFO] - Running with args:
+2024-04-09 14:31:28,496 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.8, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:31:28,496 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:31:28,496 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:31:28,722 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 14:39:47,630 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:39:47,669 - RS [INFO] - Found gpu 0, used memory 1594978304.
+2024-04-09 14:39:47,670 - RS [INFO] - Running with args:
+2024-04-09 14:39:47,670 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.8, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:39:47,670 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:39:47,671 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:39:47,901 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 14:40:38,768 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:40:38,814 - RS [INFO] - Found gpu 0, used memory 1594978304.
+2024-04-09 14:40:38,815 - RS [INFO] - Running with args:
+2024-04-09 14:40:38,815 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.8, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:40:38,815 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:40:38,816 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:40:39,043 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 14:42:20,818 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:42:20,866 - RS [INFO] - Found gpu 0, used memory 1609891840.
+2024-04-09 14:42:20,869 - RS [INFO] - Running with args:
+2024-04-09 14:42:20,869 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:42:20,869 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:42:20,869 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:42:21,110 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 14:45:20,397 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:45:20,439 - RS [INFO] - Found gpu 0, used memory 1343057920.
+2024-04-09 14:45:20,440 - RS [INFO] - Running with args:
+2024-04-09 14:45:20,440 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.8, 'batch_size': 32, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:45:20,441 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:45:20,441 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:45:20,669 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 14:45:46,272 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 14:45:46,318 - RS [INFO] - Found gpu 0, used memory 1288204288.
+2024-04-09 14:45:46,319 - RS [INFO] - Running with args:
+2024-04-09 14:45:46,319 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.1, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 14:45:46,319 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 14:45:46,320 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 14:45:46,537 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 15:36:12,965 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 15:36:13,005 - RS [INFO] - Found gpu 0, used memory 1711951872.
+2024-04-09 15:36:13,006 - RS [INFO] - Running with args:
+2024-04-09 15:36:13,006 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.1, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 15:36:13,006 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 15:36:13,007 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 15:36:13,213 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 15:40:17,434 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 15:40:17,480 - RS [INFO] - Found gpu 0, used memory 1698680832.
+2024-04-09 15:40:17,483 - RS [INFO] - Running with args:
+2024-04-09 15:40:17,483 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.1, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 15:40:17,483 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 15:40:17,484 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 15:40:17,721 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 15:47:51,575 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 15:47:51,624 - RS [INFO] - Found gpu 0, used memory 1699631104.
+2024-04-09 15:47:51,626 - RS [INFO] - Running with args:
+2024-04-09 15:47:51,626 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.1, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 15:47:51,626 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 15:47:51,626 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 15:47:51,897 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 15:50:42,711 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 15:50:42,760 - RS [INFO] - Found gpu 0, used memory 1703268352.
+2024-04-09 15:50:42,762 - RS [INFO] - Running with args:
+2024-04-09 15:50:42,762 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.1, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 15:50:42,762 - RS [INFO] - Seeds: [1111, 2222, 3333, 4444]
+2024-04-09 15:50:42,762 - RS [INFO] - ------------------------------ Running with seed 1111 [1/4] ------------------------------
+2024-04-09 15:50:42,988 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 15:50:58,299 - RS [INFO] - Result for seed 1111: {'loss': tensor(0.6873, device='cuda:0'), 'pix_acc': tensor(0.2215, device='cuda:0'), 'mean_iou': tensor(0.1245), 'freq_iou': tensor(0.1835)}
+2024-04-09 15:50:58,299 - RS [INFO] - ------------------------------ Running with seed 2222 [2/4] ------------------------------
+2024-04-09 15:50:58,536 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 15:55:45,327 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 15:55:45,371 - RS [INFO] - Found gpu 0, used memory 1702088704.
+2024-04-09 15:55:45,372 - RS [INFO] - Running with args:
+2024-04-09 15:55:45,372 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.1, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 15:55:45,372 - RS [INFO] - Seeds: [1111]
+2024-04-09 15:55:45,373 - RS [INFO] - ------------------------------ Running with seed 1111 [1/1] ------------------------------
+2024-04-09 15:55:45,605 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 15:56:00,604 - RS [INFO] - Result for seed 1111: {'loss': tensor(0.6873, device='cuda:0'), 'pix_acc': tensor(0.2309, device='cuda:0'), 'mean_iou': tensor(0.1083), 'freq_iou': tensor(0.1592)}
+2024-04-09 16:02:52,536 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 16:02:52,573 - RS [INFO] - Found gpu 0, used memory 1709150208.
+2024-04-09 16:02:52,574 - RS [INFO] - Running with args:
+2024-04-09 16:02:52,574 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.1, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 16:02:52,575 - RS [INFO] - Seeds: [1111]
+2024-04-09 16:02:52,575 - RS [INFO] - ------------------------------ Running with seed 1111 [1/1] ------------------------------
+2024-04-09 16:02:52,798 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 16:03:07,868 - RS [INFO] - Result for seed 1111: {'loss': tensor(0.6873, device='cuda:0'), 'pix_acc': tensor(0.2120, device='cuda:0'), 'mean_iou': tensor(0.2195), 'freq_iou': tensor(0.3349)}
+2024-04-09 16:03:30,084 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 16:03:30,122 - RS [INFO] - Found gpu 0, used memory 1709346816.
+2024-04-09 16:03:30,123 - RS [INFO] - Running with args:
+2024-04-09 16:03:30,123 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.1, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 16:03:30,123 - RS [INFO] - Seeds: [1111]
+2024-04-09 16:03:30,124 - RS [INFO] - ------------------------------ Running with seed 1111 [1/1] ------------------------------
+2024-04-09 16:03:30,348 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 16:03:45,425 - RS [INFO] - Result for seed 1111: {'loss': tensor(0.6873, device='cuda:0'), 'pix_acc': tensor(0.2171, device='cuda:0'), 'mean_iou': tensor(0.1051), 'freq_iou': tensor(0.1636)}
+2024-04-09 16:03:45,430 - RS [INFO] - Results saved to D:\Search\Remote sensing\Unet\res_save_dir\unet-berlin.csv.
+2024-04-09 20:10:23,082 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:10:23,122 - RS [INFO] - Found gpu 0, used memory 2002960384.
+2024-04-09 20:10:23,124 - RS [INFO] - Running with args:
+2024-04-09 20:10:23,124 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'super_epoch': 0, 'train_ratio': 0.1, 'batch_size': 4, 'learning_rate': 0.001, 'num_head': 8, 'num_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin.pth'), 'device': device(type='cuda', index=0), 'train_mode': 'segmentation', 'weight_path': 'params/unet_berlin_0.pth', 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:10:23,124 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:10:23,378 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:17:14,171 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:17:14,205 - RS [INFO] - Found gpu 0, used memory 2006630400.
+2024-04-09 20:17:14,207 - RS [INFO] - Running with args:
+2024-04-09 20:17:14,208 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'num_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:17:14,208 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:17:14,457 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:17:32,568 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:17:32,615 - RS [INFO] - Found gpu 0, used memory 2006630400.
+2024-04-09 20:17:32,617 - RS [INFO] - Running with args:
+2024-04-09 20:17:32,621 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:17:32,621 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:17:32,853 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:23:03,817 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:23:03,863 - RS [INFO] - Found gpu 0, used memory 1934434304.
+2024-04-09 20:23:03,864 - RS [INFO] - Running with args:
+2024-04-09 20:23:03,864 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:23:03,865 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:23:04,103 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:24:43,115 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:24:43,148 - RS [INFO] - Found gpu 0, used memory 1800740864.
+2024-04-09 20:24:43,149 - RS [INFO] - Running with args:
+2024-04-09 20:24:43,149 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 1, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:24:43,149 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:24:43,388 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:25:54,317 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:25:54,356 - RS [INFO] - Found gpu 0, used memory 1800806400.
+2024-04-09 20:25:54,357 - RS [INFO] - Running with args:
+2024-04-09 20:25:54,357 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 1, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:25:54,358 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:25:54,601 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:27:30,621 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:27:30,666 - RS [INFO] - Found gpu 0, used memory 1802510336.
+2024-04-09 20:27:30,667 - RS [INFO] - Running with args:
+2024-04-09 20:27:30,668 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 1, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:27:30,668 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:27:30,902 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:31:07,975 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:31:08,017 - RS [INFO] - Found gpu 0, used memory 1825546240.
+2024-04-09 20:31:08,018 - RS [INFO] - Running with args:
+2024-04-09 20:31:08,018 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 1, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:31:08,019 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:31:08,260 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:33:51,303 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:33:51,340 - RS [INFO] - Found gpu 0, used memory 1820434432.
+2024-04-09 20:33:51,341 - RS [INFO] - Running with args:
+2024-04-09 20:33:51,342 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 1, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:33:51,342 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:33:51,587 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:39:23,000 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:39:23,046 - RS [INFO] - Found gpu 0, used memory 1815715840.
+2024-04-09 20:39:23,047 - RS [INFO] - Running with args:
+2024-04-09 20:39:23,048 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 1, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:39:23,048 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:39:23,290 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:43:41,068 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:43:41,109 - RS [INFO] - Found gpu 0, used memory 1819189248.
+2024-04-09 20:43:41,110 - RS [INFO] - Running with args:
+2024-04-09 20:43:41,110 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 1, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:43:41,111 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:43:41,351 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:48:57,967 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:48:58,009 - RS [INFO] - Found gpu 0, used memory 1821188096.
+2024-04-09 20:48:58,011 - RS [INFO] - Running with args:
+2024-04-09 20:48:58,011 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 1, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:48:58,011 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:48:58,254 - RS [INFO] - The model has 32085699 trainable parameters
+2024-04-09 20:53:11,409 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-09 20:53:11,449 - RS [INFO] - Found gpu 0, used memory 1777278976.
+2024-04-09 20:53:11,450 - RS [INFO] - Running with args:
+2024-04-09 20:53:11,450 - RS [INFO] - {'model_name': 'unet', 'dataset_name': 'berlin', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 1, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\berlin', 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/Unet/model_save_dir/unet/berlin/unet-berlin-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/Unet/train_image')}
+2024-04-09 20:53:11,451 - RS [INFO] - Seeds: [1111]
+2024-04-09 20:53:11,697 - RS [INFO] - The model has 32085699 trainable parameters

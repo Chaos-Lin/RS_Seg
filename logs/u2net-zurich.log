@@ -1,0 +1,85 @@
+2024-04-17 14:42:26,279 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 14:45:07,674 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 14:45:07,724 - RS [INFO] - Found gpu 0, used memory 1866694656.
+2024-04-17 14:45:07,725 - RS [INFO] - Running with args:
+2024-04-17 14:45:07,725 - RS [INFO] - {'model_name': 'u2net', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/u2net/zurich/u2net-zurich-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 14:45:07,730 - RS [INFO] - Seeds: [1111]
+2024-04-17 14:45:08,061 - RS [INFO] - The model has 44037579 trainable parameters
+2024-04-17 14:45:08,061 - RS [INFO] - not successful load weight
+2024-04-17 14:45:08,062 - RS [INFO] - 0/20
+2024-04-17 14:46:38,512 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 14:46:38,552 - RS [INFO] - Found gpu 0, used memory 1894547456.
+2024-04-17 14:46:38,554 - RS [INFO] - Running with args:
+2024-04-17 14:46:38,554 - RS [INFO] - {'model_name': 'u2net', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/u2net/zurich/u2net-zurich-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 14:46:38,554 - RS [INFO] - Seeds: [1111]
+2024-04-17 14:46:38,880 - RS [INFO] - The model has 44037579 trainable parameters
+2024-04-17 14:46:38,881 - RS [INFO] - not successful load weight
+2024-04-17 14:46:38,882 - RS [INFO] - 0/20
+2024-04-17 14:47:04,226 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 14:47:04,276 - RS [INFO] - Found gpu 0, used memory 1894547456.
+2024-04-17 14:47:04,278 - RS [INFO] - Running with args:
+2024-04-17 14:47:04,278 - RS [INFO] - {'model_name': 'u2net', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/u2net/zurich/u2net-zurich-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 14:47:04,278 - RS [INFO] - Seeds: [1111]
+2024-04-17 14:47:04,605 - RS [INFO] - The model has 44037579 trainable parameters
+2024-04-17 14:47:04,605 - RS [INFO] - not successful load weight
+2024-04-17 14:47:04,606 - RS [INFO] - 0/20
+2024-04-17 14:48:16,028 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 14:48:16,072 - RS [INFO] - Found gpu 0, used memory 1859518464.
+2024-04-17 14:48:16,073 - RS [INFO] - Running with args:
+2024-04-17 14:48:16,073 - RS [INFO] - {'model_name': 'u2net', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/u2net/zurich/u2net-zurich-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 14:48:16,074 - RS [INFO] - Seeds: [1111]
+2024-04-17 14:48:16,398 - RS [INFO] - The model has 44037579 trainable parameters
+2024-04-17 14:48:16,398 - RS [INFO] - not successful load weight
+2024-04-17 14:48:16,399 - RS [INFO] - 0/20
+2024-04-17 14:48:57,920 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 14:48:57,955 - RS [INFO] - Found gpu 0, used memory 1859518464.
+2024-04-17 14:48:57,956 - RS [INFO] - Running with args:
+2024-04-17 14:48:57,957 - RS [INFO] - {'model_name': 'u2net', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/u2net/zurich/u2net-zurich-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 14:48:57,957 - RS [INFO] - Seeds: [1111]
+2024-04-17 14:48:58,312 - RS [INFO] - The model has 44037579 trainable parameters
+2024-04-17 14:48:58,312 - RS [INFO] - not successful load weight
+2024-04-17 14:48:58,316 - RS [INFO] - 0/20
+2024-04-17 14:50:15,085 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 14:50:15,128 - RS [INFO] - Found gpu 0, used memory 1859452928.
+2024-04-17 14:50:15,129 - RS [INFO] - Running with args:
+2024-04-17 14:50:15,129 - RS [INFO] - {'model_name': 'u2net', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/u2net/zurich/u2net-zurich-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 14:50:15,129 - RS [INFO] - Seeds: [1111]
+2024-04-17 14:50:15,445 - RS [INFO] - The model has 44037579 trainable parameters
+2024-04-17 14:50:15,445 - RS [INFO] - not successful load weight
+2024-04-17 14:50:15,447 - RS [INFO] - 0/20
+2024-04-17 14:51:25,002 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 14:51:25,050 - RS [INFO] - Found gpu 0, used memory 1859387392.
+2024-04-17 14:51:25,051 - RS [INFO] - Running with args:
+2024-04-17 14:51:25,051 - RS [INFO] - {'model_name': 'u2net', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/u2net/zurich/u2net-zurich-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 14:51:25,051 - RS [INFO] - Seeds: [1111]
+2024-04-17 14:51:25,385 - RS [INFO] - The model has 44037579 trainable parameters
+2024-04-17 14:51:25,385 - RS [INFO] - not successful load weight
+2024-04-17 14:51:25,386 - RS [INFO] - 0/20
+2024-04-17 14:52:16,551 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 14:52:16,608 - RS [INFO] - Found gpu 0, used memory 1864597504.
+2024-04-17 14:52:16,610 - RS [INFO] - Running with args:
+2024-04-17 14:52:16,610 - RS [INFO] - {'model_name': 'u2net', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/u2net/zurich/u2net-zurich-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 14:52:16,610 - RS [INFO] - Seeds: [1111]
+2024-04-17 14:52:16,980 - RS [INFO] - The model has 44037579 trainable parameters
+2024-04-17 14:52:16,980 - RS [INFO] - not successful load weight
+2024-04-17 14:52:16,981 - RS [INFO] - 0/20
+2024-04-17 14:54:38,500 - RS [INFO] - 1/20
+2024-04-17 14:56:57,456 - RS [INFO] - 2/20
+2024-04-17 14:59:16,573 - RS [INFO] - 3/20
+2024-04-17 15:01:31,384 - RS [INFO] - 4/20
+2024-04-17 15:03:46,460 - RS [INFO] - 5/20
+2024-04-17 15:06:01,715 - RS [INFO] - 6/20
+2024-04-17 15:08:16,814 - RS [INFO] - 7/20
+2024-04-17 15:10:31,476 - RS [INFO] - 8/20
+2024-04-17 15:12:46,187 - RS [INFO] - 9/20
+2024-04-17 15:15:09,406 - RS [INFO] - 10/20
+2024-04-17 15:17:29,870 - RS [INFO] - 11/20
+2024-04-17 15:19:50,280 - RS [INFO] - 12/20
+2024-04-17 15:22:13,198 - RS [INFO] - 13/20
+2024-04-17 15:24:40,294 - RS [INFO] - 14/20
+2024-04-17 15:27:07,488 - RS [INFO] - 15/20
+2024-04-17 15:29:32,267 - RS [INFO] - 16/20
+2024-04-17 15:31:57,952 - RS [INFO] - 17/20
+2024-04-17 15:34:22,908 - RS [INFO] - 18/20
+2024-04-17 15:36:42,161 - RS [INFO] - 19/20
+2024-04-17 15:39:07,128 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\u2net\zurich\u2net-zurich-1.pth

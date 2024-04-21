@@ -1,0 +1,29 @@
+2024-04-21 19:31:27,035 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-21 19:31:27,075 - RS [INFO] - Found gpu 0, used memory 2173845504.
+2024-04-21 19:31:27,076 - RS [INFO] - Running with args:
+2024-04-21 19:31:27,077 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'forest', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\forest', 'is_color': False, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/forest/unetplusplus-forest-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-21 19:31:27,077 - RS [INFO] - Seeds: [1111]
+2024-04-21 19:31:27,248 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-21 19:31:27,248 - RS [INFO] - not successful load weight
+2024-04-21 19:31:27,249 - RS [INFO] - 0/20
+2024-04-21 19:34:01,468 - RS [INFO] - 1/20
+2024-04-21 19:36:30,673 - RS [INFO] - 2/20
+2024-04-21 19:38:57,401 - RS [INFO] - 3/20
+2024-04-21 19:41:25,429 - RS [INFO] - 4/20
+2024-04-21 19:43:53,223 - RS [INFO] - 5/20
+2024-04-21 19:46:18,482 - RS [INFO] - 6/20
+2024-04-21 19:48:46,428 - RS [INFO] - 7/20
+2024-04-21 19:51:16,841 - RS [INFO] - 8/20
+2024-04-21 19:53:48,375 - RS [INFO] - 9/20
+2024-04-21 19:56:20,418 - RS [INFO] - 10/20
+2024-04-21 19:58:53,217 - RS [INFO] - 11/20
+2024-04-21 20:01:32,330 - RS [INFO] - 12/20
+2024-04-21 20:04:05,382 - RS [INFO] - 13/20
+2024-04-21 20:06:38,463 - RS [INFO] - 14/20
+2024-04-21 20:09:11,521 - RS [INFO] - 15/20
+2024-04-21 20:11:44,591 - RS [INFO] - 16/20
+2024-04-21 20:14:17,690 - RS [INFO] - 17/20
+2024-04-21 20:16:50,789 - RS [INFO] - 18/20
+2024-04-21 20:19:24,274 - RS [INFO] - 19/20
+2024-04-21 20:21:56,502 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-1.pth
+2024-04-21 20:34:03,055 - RS [INFO] - 0/20

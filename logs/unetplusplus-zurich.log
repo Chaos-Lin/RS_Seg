@@ -1,0 +1,615 @@
+2024-04-17 17:07:37,575 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:07:37,614 - RS [INFO] - Found gpu 0, used memory 1848619008.
+2024-04-17 17:07:37,616 - RS [INFO] - Running with args:
+2024-04-17 17:07:37,616 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:07:37,620 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:07:37,798 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:07:37,798 - RS [INFO] - not successful load weight
+2024-04-17 17:08:54,317 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:08:54,361 - RS [INFO] - Found gpu 0, used memory 1848619008.
+2024-04-17 17:08:54,362 - RS [INFO] - Running with args:
+2024-04-17 17:08:54,362 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:08:54,363 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:08:54,528 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:08:54,529 - RS [INFO] - not successful load weight
+2024-04-17 17:09:46,365 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:09:46,412 - RS [INFO] - Found gpu 0, used memory 1848619008.
+2024-04-17 17:09:46,413 - RS [INFO] - Running with args:
+2024-04-17 17:09:46,413 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:09:46,414 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:09:46,588 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:09:46,588 - RS [INFO] - not successful load weight
+2024-04-17 17:10:32,575 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:10:32,621 - RS [INFO] - Found gpu 0, used memory 1848619008.
+2024-04-17 17:10:32,623 - RS [INFO] - Running with args:
+2024-04-17 17:10:32,623 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:10:32,623 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:10:32,779 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:10:32,780 - RS [INFO] - not successful load weight
+2024-04-17 17:39:53,840 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:39:53,884 - RS [INFO] - Found gpu 0, used memory 1847701504.
+2024-04-17 17:39:53,885 - RS [INFO] - Running with args:
+2024-04-17 17:39:53,886 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:39:53,886 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:39:54,047 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:39:54,048 - RS [INFO] - not successful load weight
+2024-04-17 17:43:33,755 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:43:33,805 - RS [INFO] - Found gpu 0, used memory 1847701504.
+2024-04-17 17:43:33,806 - RS [INFO] - Running with args:
+2024-04-17 17:43:33,806 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:43:33,806 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:43:33,978 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:43:33,978 - RS [INFO] - not successful load weight
+2024-04-17 17:43:33,978 - RS [INFO] - 0/20
+2024-04-17 17:45:14,622 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:45:14,658 - RS [INFO] - Found gpu 0, used memory 1847701504.
+2024-04-17 17:45:14,660 - RS [INFO] - Running with args:
+2024-04-17 17:45:14,660 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:45:14,660 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:45:14,838 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:45:14,838 - RS [INFO] - not successful load weight
+2024-04-17 17:46:29,607 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:46:29,645 - RS [INFO] - Found gpu 0, used memory 1847701504.
+2024-04-17 17:46:29,647 - RS [INFO] - Running with args:
+2024-04-17 17:46:29,647 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:46:29,647 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:46:29,818 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:46:29,819 - RS [INFO] - not successful load weight
+2024-04-17 17:46:48,937 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:46:48,977 - RS [INFO] - Found gpu 0, used memory 1847701504.
+2024-04-17 17:46:48,979 - RS [INFO] - Running with args:
+2024-04-17 17:46:48,979 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:46:48,979 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:46:49,171 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:48:10,356 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:48:10,398 - RS [INFO] - Found gpu 0, used memory 1847701504.
+2024-04-17 17:48:10,400 - RS [INFO] - Running with args:
+2024-04-17 17:48:10,400 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:48:10,400 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:48:39,673 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:49:18,906 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:49:18,942 - RS [INFO] - Found gpu 0, used memory 1847701504.
+2024-04-17 17:49:18,945 - RS [INFO] - Running with args:
+2024-04-17 17:49:18,945 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:49:18,945 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:49:21,617 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:49:21,618 - RS [INFO] - not successful load weight
+2024-04-17 17:50:49,465 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:50:49,500 - RS [INFO] - Found gpu 0, used memory 1847701504.
+2024-04-17 17:50:49,502 - RS [INFO] - Running with args:
+2024-04-17 17:50:49,502 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:50:49,502 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:50:49,689 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:50:49,689 - RS [INFO] - not successful load weight
+2024-04-17 17:54:23,899 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:54:23,942 - RS [INFO] - Found gpu 0, used memory 1847963648.
+2024-04-17 17:54:23,943 - RS [INFO] - Running with args:
+2024-04-17 17:54:23,944 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:54:23,944 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:54:24,115 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:54:24,115 - RS [INFO] - not successful load weight
+2024-04-17 17:57:35,701 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:57:35,736 - RS [INFO] - Found gpu 0, used memory 1848815616.
+2024-04-17 17:57:35,737 - RS [INFO] - Running with args:
+2024-04-17 17:57:35,738 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:57:35,738 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:57:35,905 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:57:44,432 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:57:44,473 - RS [INFO] - Found gpu 0, used memory 1848815616.
+2024-04-17 17:57:44,474 - RS [INFO] - Running with args:
+2024-04-17 17:57:44,474 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:57:44,475 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:57:44,643 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 17:57:44,644 - RS [INFO] - not successful load weight
+2024-04-17 17:57:44,644 - RS [INFO] - 0/20
+2024-04-17 17:59:49,285 - RS [INFO] - 1/20
+2024-04-17 18:01:53,813 - RS [INFO] - 2/20
+2024-04-17 18:03:47,130 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 18:03:47,177 - RS [INFO] - Found gpu 0, used memory 1829679104.
+2024-04-17 18:03:47,179 - RS [INFO] - Running with args:
+2024-04-17 18:03:47,179 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 18:03:47,179 - RS [INFO] - Seeds: [1111]
+2024-04-17 18:03:47,345 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 18:03:47,345 - RS [INFO] - not successful load weight
+2024-04-17 18:03:47,346 - RS [INFO] - 0/20
+2024-04-17 18:05:53,039 - RS [INFO] - 1/20
+2024-04-17 18:07:58,536 - RS [INFO] - 2/20
+2024-04-17 18:09:36,659 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 18:09:36,701 - RS [INFO] - Found gpu 0, used memory 1853927424.
+2024-04-17 18:09:36,702 - RS [INFO] - Running with args:
+2024-04-17 18:09:36,702 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 18:09:36,702 - RS [INFO] - Seeds: [1111]
+2024-04-17 18:09:36,868 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-17 18:09:36,868 - RS [INFO] - not successful load weight
+2024-04-17 18:09:36,869 - RS [INFO] - 0/20
+2024-04-17 18:11:42,266 - RS [INFO] - 1/20
+2024-04-17 18:13:47,456 - RS [INFO] - 2/20
+2024-04-17 18:15:52,449 - RS [INFO] - 3/20
+2024-04-17 18:17:57,969 - RS [INFO] - 4/20
+2024-04-17 18:20:02,937 - RS [INFO] - 5/20
+2024-04-17 18:22:07,394 - RS [INFO] - 6/20
+2024-04-17 18:24:12,205 - RS [INFO] - 7/20
+2024-04-17 18:26:17,078 - RS [INFO] - 8/20
+2024-04-17 18:28:21,991 - RS [INFO] - 9/20
+2024-04-17 18:30:25,198 - RS [INFO] - 10/20
+2024-04-17 18:32:26,238 - RS [INFO] - 11/20
+2024-04-17 18:34:27,712 - RS [INFO] - 12/20
+2024-04-17 18:36:28,930 - RS [INFO] - 13/20
+2024-04-17 18:38:31,070 - RS [INFO] - 14/20
+2024-04-17 18:40:33,432 - RS [INFO] - 15/20
+2024-04-17 18:42:35,729 - RS [INFO] - 16/20
+2024-04-17 18:44:38,223 - RS [INFO] - 17/20
+2024-04-17 18:46:41,296 - RS [INFO] - 18/20
+2024-04-17 18:48:44,464 - RS [INFO] - 19/20
+2024-04-17 18:50:47,483 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-CL-1.pth
+2024-04-17 18:52:10,197 - RS [INFO] - 0/20
+2024-04-17 18:54:13,331 - RS [INFO] - 1/20
+2024-04-17 18:56:16,353 - RS [INFO] - 2/20
+2024-04-17 18:58:19,360 - RS [INFO] - 3/20
+2024-04-17 19:00:22,502 - RS [INFO] - 4/20
+2024-04-17 19:02:25,617 - RS [INFO] - 5/20
+2024-04-17 19:04:28,692 - RS [INFO] - 6/20
+2024-04-17 19:06:31,424 - RS [INFO] - 7/20
+2024-04-17 19:08:34,076 - RS [INFO] - 8/20
+2024-04-17 19:10:37,145 - RS [INFO] - 9/20
+2024-04-17 19:12:40,059 - RS [INFO] - 10/20
+2024-04-17 19:14:42,958 - RS [INFO] - 11/20
+2024-04-17 19:16:45,732 - RS [INFO] - 12/20
+2024-04-17 19:18:48,318 - RS [INFO] - 13/20
+2024-04-17 19:20:50,779 - RS [INFO] - 14/20
+2024-04-17 19:22:53,586 - RS [INFO] - 15/20
+2024-04-17 19:24:56,417 - RS [INFO] - 16/20
+2024-04-17 19:26:59,149 - RS [INFO] - 17/20
+2024-04-17 19:29:02,170 - RS [INFO] - 18/20
+2024-04-17 19:31:05,202 - RS [INFO] - 19/20
+2024-04-17 19:33:08,495 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-2.pth
+2024-04-17 19:34:30,302 - RS [INFO] - 0/20
+2024-04-17 19:36:33,326 - RS [INFO] - 1/20
+2024-04-17 19:38:36,543 - RS [INFO] - 2/20
+2024-04-17 19:40:39,416 - RS [INFO] - 3/20
+2024-04-17 19:42:42,272 - RS [INFO] - 4/20
+2024-04-17 19:44:45,378 - RS [INFO] - 5/20
+2024-04-17 19:46:48,340 - RS [INFO] - 6/20
+2024-04-17 19:48:51,099 - RS [INFO] - 7/20
+2024-04-17 19:50:53,938 - RS [INFO] - 8/20
+2024-04-17 19:52:56,926 - RS [INFO] - 9/20
+2024-04-17 19:54:59,862 - RS [INFO] - 10/20
+2024-04-17 19:57:02,889 - RS [INFO] - 11/20
+2024-04-17 19:59:06,066 - RS [INFO] - 12/20
+2024-04-17 20:01:08,815 - RS [INFO] - 13/20
+2024-04-17 20:03:11,974 - RS [INFO] - 14/20
+2024-04-17 20:05:15,119 - RS [INFO] - 15/20
+2024-04-17 20:07:18,088 - RS [INFO] - 16/20
+2024-04-17 20:09:21,523 - RS [INFO] - 17/20
+2024-04-17 20:11:25,326 - RS [INFO] - 18/20
+2024-04-17 20:13:28,349 - RS [INFO] - 19/20
+2024-04-17 20:15:31,340 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-3.pth
+2024-04-17 20:16:53,147 - RS [INFO] - 0/20
+2024-04-17 20:18:56,123 - RS [INFO] - 1/20
+2024-04-17 20:20:58,569 - RS [INFO] - 2/20
+2024-04-17 20:23:01,500 - RS [INFO] - 3/20
+2024-04-17 20:25:04,359 - RS [INFO] - 4/20
+2024-04-17 20:27:06,887 - RS [INFO] - 5/20
+2024-04-17 20:29:09,822 - RS [INFO] - 6/20
+2024-04-17 20:31:12,775 - RS [INFO] - 7/20
+2024-04-17 20:33:15,621 - RS [INFO] - 8/20
+2024-04-17 20:35:18,841 - RS [INFO] - 9/20
+2024-04-17 20:37:21,712 - RS [INFO] - 10/20
+2024-04-17 20:39:24,880 - RS [INFO] - 11/20
+2024-04-17 20:41:28,108 - RS [INFO] - 12/20
+2024-04-17 20:43:30,857 - RS [INFO] - 13/20
+2024-04-17 20:45:34,001 - RS [INFO] - 14/20
+2024-04-17 20:47:36,762 - RS [INFO] - 15/20
+2024-04-17 20:49:39,876 - RS [INFO] - 16/20
+2024-04-17 20:51:42,806 - RS [INFO] - 17/20
+2024-04-17 20:53:45,831 - RS [INFO] - 18/20
+2024-04-17 20:55:48,460 - RS [INFO] - 19/20
+2024-04-17 20:57:51,881 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-4.pth
+2024-04-17 20:59:13,726 - RS [INFO] - 0/20
+2024-04-17 21:01:16,644 - RS [INFO] - 1/20
+2024-04-17 21:03:20,258 - RS [INFO] - 2/20
+2024-04-17 21:05:23,220 - RS [INFO] - 3/20
+2024-04-17 21:07:26,033 - RS [INFO] - 4/20
+2024-04-17 21:09:29,102 - RS [INFO] - 5/20
+2024-04-17 21:11:32,000 - RS [INFO] - 6/20
+2024-04-17 21:13:35,605 - RS [INFO] - 7/20
+2024-04-17 21:15:38,606 - RS [INFO] - 8/20
+2024-04-17 21:17:41,339 - RS [INFO] - 9/20
+2024-04-17 21:19:44,396 - RS [INFO] - 10/20
+2024-04-17 21:21:47,303 - RS [INFO] - 11/20
+2024-04-17 21:23:50,320 - RS [INFO] - 12/20
+2024-04-17 21:25:53,423 - RS [INFO] - 13/20
+2024-04-17 21:27:56,328 - RS [INFO] - 14/20
+2024-04-17 21:29:59,287 - RS [INFO] - 15/20
+2024-04-17 21:32:02,160 - RS [INFO] - 16/20
+2024-04-17 21:34:05,180 - RS [INFO] - 17/20
+2024-04-17 21:36:08,272 - RS [INFO] - 18/20
+2024-04-17 21:38:11,267 - RS [INFO] - 19/20
+2024-04-17 21:40:13,885 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-5.pth
+2024-04-17 21:41:37,148 - RS [INFO] - 0/20
+2024-04-17 21:43:40,421 - RS [INFO] - 1/20
+2024-04-17 21:45:42,685 - RS [INFO] - 2/20
+2024-04-17 21:47:44,816 - RS [INFO] - 3/20
+2024-04-17 21:49:46,163 - RS [INFO] - 4/20
+2024-04-17 21:51:47,701 - RS [INFO] - 5/20
+2024-04-17 21:53:49,574 - RS [INFO] - 6/20
+2024-04-17 21:55:51,220 - RS [INFO] - 7/20
+2024-04-17 21:57:52,711 - RS [INFO] - 8/20
+2024-04-17 21:59:54,616 - RS [INFO] - 9/20
+2024-04-17 22:01:56,089 - RS [INFO] - 10/20
+2024-04-17 22:03:57,945 - RS [INFO] - 11/20
+2024-04-17 22:05:59,329 - RS [INFO] - 12/20
+2024-04-17 22:08:01,315 - RS [INFO] - 13/20
+2024-04-17 22:10:03,401 - RS [INFO] - 14/20
+2024-04-17 22:12:05,445 - RS [INFO] - 15/20
+2024-04-17 22:14:07,651 - RS [INFO] - 16/20
+2024-04-17 22:16:09,264 - RS [INFO] - 17/20
+2024-04-17 22:18:10,957 - RS [INFO] - 18/20
+2024-04-17 22:20:12,750 - RS [INFO] - 19/20
+2024-04-17 22:22:14,807 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-6.pth
+2024-04-17 22:23:36,517 - RS [INFO] - 0/20
+2024-04-17 22:25:40,174 - RS [INFO] - 1/20
+2024-04-17 22:27:43,275 - RS [INFO] - 2/20
+2024-04-17 22:29:46,206 - RS [INFO] - 3/20
+2024-04-17 22:31:49,142 - RS [INFO] - 4/20
+2024-04-17 22:33:52,435 - RS [INFO] - 5/20
+2024-04-17 22:35:54,721 - RS [INFO] - 6/20
+2024-04-17 22:37:56,031 - RS [INFO] - 7/20
+2024-04-17 22:39:57,936 - RS [INFO] - 8/20
+2024-04-17 22:41:59,728 - RS [INFO] - 9/20
+2024-04-17 22:44:01,202 - RS [INFO] - 10/20
+2024-04-17 22:46:03,078 - RS [INFO] - 11/20
+2024-04-17 22:48:05,570 - RS [INFO] - 12/20
+2024-04-17 22:50:08,055 - RS [INFO] - 13/20
+2024-04-17 22:52:09,801 - RS [INFO] - 14/20
+2024-04-17 22:54:12,087 - RS [INFO] - 15/20
+2024-04-17 22:56:14,359 - RS [INFO] - 16/20
+2024-04-17 22:58:16,885 - RS [INFO] - 17/20
+2024-04-17 23:00:19,240 - RS [INFO] - 18/20
+2024-04-17 23:02:21,708 - RS [INFO] - 19/20
+2024-04-17 23:04:24,172 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-7.pth
+2024-04-17 23:05:46,132 - RS [INFO] - 0/20
+2024-04-17 23:07:48,892 - RS [INFO] - 1/20
+2024-04-17 23:09:51,439 - RS [INFO] - 2/20
+2024-04-17 23:11:54,168 - RS [INFO] - 3/20
+2024-04-17 23:13:56,518 - RS [INFO] - 4/20
+2024-04-17 23:15:58,766 - RS [INFO] - 5/20
+2024-04-17 23:18:00,969 - RS [INFO] - 6/20
+2024-04-17 23:20:02,959 - RS [INFO] - 7/20
+2024-04-17 23:22:05,265 - RS [INFO] - 8/20
+2024-04-17 23:24:07,461 - RS [INFO] - 9/20
+2024-04-17 23:26:09,722 - RS [INFO] - 10/20
+2024-04-17 23:28:12,713 - RS [INFO] - 11/20
+2024-04-17 23:30:15,451 - RS [INFO] - 12/20
+2024-04-17 23:32:18,119 - RS [INFO] - 13/20
+2024-04-17 23:34:20,837 - RS [INFO] - 14/20
+2024-04-17 23:36:23,842 - RS [INFO] - 15/20
+2024-04-17 23:38:26,768 - RS [INFO] - 16/20
+2024-04-17 23:40:29,362 - RS [INFO] - 17/20
+2024-04-17 23:42:31,988 - RS [INFO] - 18/20
+2024-04-17 23:44:34,655 - RS [INFO] - 19/20
+2024-04-17 23:46:37,220 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-8.pth
+2024-04-17 23:47:58,959 - RS [INFO] - 0/20
+2024-04-17 23:50:01,810 - RS [INFO] - 1/20
+2024-04-17 23:52:05,261 - RS [INFO] - 2/20
+2024-04-17 23:54:07,991 - RS [INFO] - 3/20
+2024-04-17 23:56:10,835 - RS [INFO] - 4/20
+2024-04-17 23:58:13,419 - RS [INFO] - 5/20
+2024-04-18 00:00:15,895 - RS [INFO] - 6/20
+2024-04-18 00:02:18,635 - RS [INFO] - 7/20
+2024-04-18 00:04:21,342 - RS [INFO] - 8/20
+2024-04-18 00:06:23,801 - RS [INFO] - 9/20
+2024-04-18 00:08:26,812 - RS [INFO] - 10/20
+2024-04-18 00:10:29,726 - RS [INFO] - 11/20
+2024-04-18 00:12:32,816 - RS [INFO] - 12/20
+2024-04-18 00:14:35,599 - RS [INFO] - 13/20
+2024-04-18 00:16:38,015 - RS [INFO] - 14/20
+2024-04-18 00:18:40,412 - RS [INFO] - 15/20
+2024-04-18 00:20:42,796 - RS [INFO] - 16/20
+2024-04-18 00:22:45,222 - RS [INFO] - 17/20
+2024-04-18 00:24:47,861 - RS [INFO] - 18/20
+2024-04-18 00:26:50,898 - RS [INFO] - 19/20
+2024-04-18 00:28:53,710 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-9.pth
+2024-04-18 00:30:15,620 - RS [INFO] - 0/20
+2024-04-18 00:32:18,043 - RS [INFO] - 1/20
+2024-04-18 00:34:20,726 - RS [INFO] - 2/20
+2024-04-18 00:36:23,565 - RS [INFO] - 3/20
+2024-04-18 00:38:26,561 - RS [INFO] - 4/20
+2024-04-18 00:40:29,421 - RS [INFO] - 5/20
+2024-04-18 00:42:32,001 - RS [INFO] - 6/20
+2024-04-18 00:44:34,953 - RS [INFO] - 7/20
+2024-04-18 00:46:37,831 - RS [INFO] - 8/20
+2024-04-18 00:48:40,537 - RS [INFO] - 9/20
+2024-04-18 00:50:43,428 - RS [INFO] - 10/20
+2024-04-18 00:52:46,489 - RS [INFO] - 11/20
+2024-04-18 00:54:49,319 - RS [INFO] - 12/20
+2024-04-18 00:56:52,344 - RS [INFO] - 13/20
+2024-04-18 00:58:55,280 - RS [INFO] - 14/20
+2024-04-18 01:00:57,983 - RS [INFO] - 15/20
+2024-04-18 01:03:00,800 - RS [INFO] - 16/20
+2024-04-18 01:05:03,796 - RS [INFO] - 17/20
+2024-04-18 01:07:07,071 - RS [INFO] - 18/20
+2024-04-18 01:09:10,167 - RS [INFO] - 19/20
+2024-04-18 01:11:13,095 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-10.pth
+2024-04-18 01:12:34,939 - RS [INFO] - 0/20
+2024-04-18 01:14:38,012 - RS [INFO] - 1/20
+2024-04-18 01:16:40,830 - RS [INFO] - 2/20
+2024-04-18 01:18:43,860 - RS [INFO] - 3/20
+2024-04-18 01:20:46,905 - RS [INFO] - 4/20
+2024-04-18 01:22:49,866 - RS [INFO] - 5/20
+2024-04-18 01:24:52,796 - RS [INFO] - 6/20
+2024-04-18 01:26:55,610 - RS [INFO] - 7/20
+2024-04-18 01:28:58,538 - RS [INFO] - 8/20
+2024-04-18 01:31:01,333 - RS [INFO] - 9/20
+2024-04-18 01:33:04,145 - RS [INFO] - 10/20
+2024-04-18 01:35:06,981 - RS [INFO] - 11/20
+2024-04-18 01:37:09,975 - RS [INFO] - 12/20
+2024-04-18 01:39:13,044 - RS [INFO] - 13/20
+2024-04-18 01:41:15,788 - RS [INFO] - 14/20
+2024-04-18 01:43:18,849 - RS [INFO] - 15/20
+2024-04-18 01:45:22,004 - RS [INFO] - 16/20
+2024-04-18 01:47:24,682 - RS [INFO] - 17/20
+2024-04-18 01:49:27,530 - RS [INFO] - 18/20
+2024-04-18 01:51:30,862 - RS [INFO] - 19/20
+2024-04-18 01:53:33,936 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-11.pth
+2024-04-18 01:54:55,291 - RS [INFO] - 0/20
+2024-04-18 01:56:58,535 - RS [INFO] - 1/20
+2024-04-18 01:59:01,562 - RS [INFO] - 2/20
+2024-04-18 02:01:04,645 - RS [INFO] - 3/20
+2024-04-18 02:03:07,555 - RS [INFO] - 4/20
+2024-04-18 02:05:10,274 - RS [INFO] - 5/20
+2024-04-18 02:07:13,293 - RS [INFO] - 6/20
+2024-04-18 02:09:16,332 - RS [INFO] - 7/20
+2024-04-18 02:11:19,463 - RS [INFO] - 8/20
+2024-04-18 02:13:22,506 - RS [INFO] - 9/20
+2024-04-18 02:15:25,564 - RS [INFO] - 10/20
+2024-04-18 02:17:28,403 - RS [INFO] - 11/20
+2024-04-18 02:19:30,576 - RS [INFO] - 12/20
+2024-04-18 02:21:33,049 - RS [INFO] - 13/20
+2024-04-18 02:23:35,571 - RS [INFO] - 14/20
+2024-04-18 02:25:38,157 - RS [INFO] - 15/20
+2024-04-18 02:27:41,039 - RS [INFO] - 16/20
+2024-04-18 02:29:43,744 - RS [INFO] - 17/20
+2024-04-18 02:31:46,468 - RS [INFO] - 18/20
+2024-04-18 02:33:49,178 - RS [INFO] - 19/20
+2024-04-18 02:35:51,708 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-12.pth
+2024-04-18 02:37:13,536 - RS [INFO] - 0/20
+2024-04-18 02:39:16,037 - RS [INFO] - 1/20
+2024-04-18 02:41:18,435 - RS [INFO] - 2/20
+2024-04-18 02:43:21,387 - RS [INFO] - 3/20
+2024-04-18 02:45:23,877 - RS [INFO] - 4/20
+2024-04-18 02:47:26,998 - RS [INFO] - 5/20
+2024-04-18 02:49:30,018 - RS [INFO] - 6/20
+2024-04-18 02:51:32,706 - RS [INFO] - 7/20
+2024-04-18 02:53:35,274 - RS [INFO] - 8/20
+2024-04-18 02:55:38,280 - RS [INFO] - 9/20
+2024-04-18 02:57:40,978 - RS [INFO] - 10/20
+2024-04-18 02:59:44,056 - RS [INFO] - 11/20
+2024-04-18 03:01:47,118 - RS [INFO] - 12/20
+2024-04-18 03:03:50,137 - RS [INFO] - 13/20
+2024-04-18 03:05:53,160 - RS [INFO] - 14/20
+2024-04-18 03:07:56,314 - RS [INFO] - 15/20
+2024-04-18 03:09:59,236 - RS [INFO] - 16/20
+2024-04-18 03:12:02,324 - RS [INFO] - 17/20
+2024-04-18 03:14:05,054 - RS [INFO] - 18/20
+2024-04-18 03:16:07,633 - RS [INFO] - 19/20
+2024-04-18 03:18:10,318 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-13.pth
+2024-04-18 03:19:31,850 - RS [INFO] - 0/20
+2024-04-18 03:21:34,653 - RS [INFO] - 1/20
+2024-04-18 03:23:37,586 - RS [INFO] - 2/20
+2024-04-18 03:25:42,679 - RS [INFO] - 3/20
+2024-04-18 03:27:49,521 - RS [INFO] - 4/20
+2024-04-18 03:29:51,371 - RS [INFO] - 5/20
+2024-04-18 03:31:53,175 - RS [INFO] - 6/20
+2024-04-18 03:33:54,521 - RS [INFO] - 7/20
+2024-04-18 03:35:56,143 - RS [INFO] - 8/20
+2024-04-18 03:37:57,666 - RS [INFO] - 9/20
+2024-04-18 03:39:59,065 - RS [INFO] - 10/20
+2024-04-18 03:42:00,921 - RS [INFO] - 11/20
+2024-04-18 03:44:02,612 - RS [INFO] - 12/20
+2024-04-18 03:46:04,048 - RS [INFO] - 13/20
+2024-04-18 03:48:05,543 - RS [INFO] - 14/20
+2024-04-18 03:50:06,928 - RS [INFO] - 15/20
+2024-04-18 03:52:08,641 - RS [INFO] - 16/20
+2024-04-18 03:54:10,209 - RS [INFO] - 17/20
+2024-04-18 03:56:11,991 - RS [INFO] - 18/20
+2024-04-18 03:58:13,954 - RS [INFO] - 19/20
+2024-04-18 04:00:15,969 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-14.pth
+2024-04-18 04:01:37,258 - RS [INFO] - 0/20
+2024-04-18 04:03:39,030 - RS [INFO] - 1/20
+2024-04-18 04:05:40,924 - RS [INFO] - 2/20
+2024-04-18 04:07:42,487 - RS [INFO] - 3/20
+2024-04-18 04:09:44,072 - RS [INFO] - 4/20
+2024-04-18 04:11:45,698 - RS [INFO] - 5/20
+2024-04-18 04:13:47,656 - RS [INFO] - 6/20
+2024-04-18 04:15:49,810 - RS [INFO] - 7/20
+2024-04-18 04:17:51,668 - RS [INFO] - 8/20
+2024-04-18 04:19:53,571 - RS [INFO] - 9/20
+2024-04-18 04:21:55,486 - RS [INFO] - 10/20
+2024-04-18 04:23:57,415 - RS [INFO] - 11/20
+2024-04-18 04:25:59,512 - RS [INFO] - 12/20
+2024-04-18 04:28:01,606 - RS [INFO] - 13/20
+2024-04-18 04:30:03,463 - RS [INFO] - 14/20
+2024-04-18 04:32:05,776 - RS [INFO] - 15/20
+2024-04-18 04:34:07,761 - RS [INFO] - 16/20
+2024-04-18 04:36:09,977 - RS [INFO] - 17/20
+2024-04-18 04:38:11,969 - RS [INFO] - 18/20
+2024-04-18 04:40:14,139 - RS [INFO] - 19/20
+2024-04-18 04:42:16,509 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-15.pth
+2024-04-18 04:43:38,247 - RS [INFO] - 0/20
+2024-04-18 04:45:40,754 - RS [INFO] - 1/20
+2024-04-18 04:47:43,002 - RS [INFO] - 2/20
+2024-04-18 04:49:45,118 - RS [INFO] - 3/20
+2024-04-18 04:51:47,982 - RS [INFO] - 4/20
+2024-04-18 04:53:50,647 - RS [INFO] - 5/20
+2024-04-18 04:55:53,450 - RS [INFO] - 6/20
+2024-04-18 04:57:56,020 - RS [INFO] - 7/20
+2024-04-18 04:59:58,230 - RS [INFO] - 8/20
+2024-04-18 05:02:01,064 - RS [INFO] - 9/20
+2024-04-18 05:04:03,827 - RS [INFO] - 10/20
+2024-04-18 05:06:06,221 - RS [INFO] - 11/20
+2024-04-18 05:08:08,915 - RS [INFO] - 12/20
+2024-04-18 05:10:11,518 - RS [INFO] - 13/20
+2024-04-18 05:12:14,142 - RS [INFO] - 14/20
+2024-04-18 05:14:16,847 - RS [INFO] - 15/20
+2024-04-18 05:16:19,735 - RS [INFO] - 16/20
+2024-04-18 05:18:22,334 - RS [INFO] - 17/20
+2024-04-18 05:20:25,129 - RS [INFO] - 18/20
+2024-04-18 05:22:27,700 - RS [INFO] - 19/20
+2024-04-18 05:24:30,044 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-16.pth
+2024-04-18 05:25:51,846 - RS [INFO] - 0/20
+2024-04-18 05:27:54,534 - RS [INFO] - 1/20
+2024-04-18 05:29:57,353 - RS [INFO] - 2/20
+2024-04-18 05:31:59,848 - RS [INFO] - 3/20
+2024-04-18 05:34:02,607 - RS [INFO] - 4/20
+2024-04-18 05:36:05,446 - RS [INFO] - 5/20
+2024-04-18 05:38:08,038 - RS [INFO] - 6/20
+2024-04-18 05:40:10,684 - RS [INFO] - 7/20
+2024-04-18 05:42:13,253 - RS [INFO] - 8/20
+2024-04-18 05:44:15,780 - RS [INFO] - 9/20
+2024-04-18 05:46:18,580 - RS [INFO] - 10/20
+2024-04-18 05:48:21,191 - RS [INFO] - 11/20
+2024-04-18 05:50:23,955 - RS [INFO] - 12/20
+2024-04-18 05:52:26,510 - RS [INFO] - 13/20
+2024-04-18 05:54:29,039 - RS [INFO] - 14/20
+2024-04-18 05:56:31,683 - RS [INFO] - 15/20
+2024-04-18 05:58:34,444 - RS [INFO] - 16/20
+2024-04-18 06:00:37,299 - RS [INFO] - 17/20
+2024-04-18 06:02:40,029 - RS [INFO] - 18/20
+2024-04-18 06:04:42,657 - RS [INFO] - 19/20
+2024-04-18 06:06:45,423 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-17.pth
+2024-04-18 06:08:06,911 - RS [INFO] - 0/20
+2024-04-18 06:10:10,084 - RS [INFO] - 1/20
+2024-04-18 06:12:13,453 - RS [INFO] - 2/20
+2024-04-18 06:14:16,612 - RS [INFO] - 3/20
+2024-04-18 06:16:19,550 - RS [INFO] - 4/20
+2024-04-18 06:18:22,407 - RS [INFO] - 5/20
+2024-04-18 06:20:25,587 - RS [INFO] - 6/20
+2024-04-18 06:22:28,537 - RS [INFO] - 7/20
+2024-04-18 06:24:31,184 - RS [INFO] - 8/20
+2024-04-18 06:26:34,012 - RS [INFO] - 9/20
+2024-04-18 06:28:37,042 - RS [INFO] - 10/20
+2024-04-18 06:30:39,896 - RS [INFO] - 11/20
+2024-04-18 06:32:42,807 - RS [INFO] - 12/20
+2024-04-18 06:34:45,680 - RS [INFO] - 13/20
+2024-04-18 06:36:48,776 - RS [INFO] - 14/20
+2024-04-18 06:38:52,326 - RS [INFO] - 15/20
+2024-04-18 06:40:56,311 - RS [INFO] - 16/20
+2024-04-18 06:42:59,871 - RS [INFO] - 17/20
+2024-04-18 06:45:03,017 - RS [INFO] - 18/20
+2024-04-18 06:47:06,286 - RS [INFO] - 19/20
+2024-04-18 06:49:09,504 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-18.pth
+2024-04-18 06:50:31,487 - RS [INFO] - 0/20
+2024-04-18 06:52:34,601 - RS [INFO] - 1/20
+2024-04-18 06:54:37,426 - RS [INFO] - 2/20
+2024-04-18 06:56:40,796 - RS [INFO] - 3/20
+2024-04-18 06:58:43,837 - RS [INFO] - 4/20
+2024-04-18 07:00:46,745 - RS [INFO] - 5/20
+2024-04-18 07:02:49,734 - RS [INFO] - 6/20
+2024-04-18 07:04:52,607 - RS [INFO] - 7/20
+2024-04-18 07:06:55,507 - RS [INFO] - 8/20
+2024-04-18 07:08:58,682 - RS [INFO] - 9/20
+2024-04-18 07:11:01,884 - RS [INFO] - 10/20
+2024-04-18 07:13:04,887 - RS [INFO] - 11/20
+2024-04-18 07:15:07,886 - RS [INFO] - 12/20
+2024-04-18 07:17:10,483 - RS [INFO] - 13/20
+2024-04-18 07:19:13,329 - RS [INFO] - 14/20
+2024-04-18 07:21:16,250 - RS [INFO] - 15/20
+2024-04-18 07:23:18,905 - RS [INFO] - 16/20
+2024-04-18 07:25:21,844 - RS [INFO] - 17/20
+2024-04-18 07:27:24,877 - RS [INFO] - 18/20
+2024-04-18 07:29:27,704 - RS [INFO] - 19/20
+2024-04-18 07:31:30,520 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-19.pth
+2024-04-18 07:32:52,568 - RS [INFO] - 0/20
+2024-04-18 07:34:55,532 - RS [INFO] - 1/20
+2024-04-18 07:36:58,600 - RS [INFO] - 2/20
+2024-04-18 07:39:01,315 - RS [INFO] - 3/20
+2024-04-18 07:41:04,251 - RS [INFO] - 4/20
+2024-04-18 07:43:07,263 - RS [INFO] - 5/20
+2024-04-18 07:45:10,166 - RS [INFO] - 6/20
+2024-04-18 07:47:13,367 - RS [INFO] - 7/20
+2024-04-18 07:49:16,349 - RS [INFO] - 8/20
+2024-04-18 07:51:19,296 - RS [INFO] - 9/20
+2024-04-18 07:53:22,055 - RS [INFO] - 10/20
+2024-04-18 07:55:24,951 - RS [INFO] - 11/20
+2024-04-18 07:57:28,090 - RS [INFO] - 12/20
+2024-04-18 07:59:31,161 - RS [INFO] - 13/20
+2024-04-18 08:01:34,071 - RS [INFO] - 14/20
+2024-04-18 08:03:37,040 - RS [INFO] - 15/20
+2024-04-18 08:05:40,322 - RS [INFO] - 16/20
+2024-04-18 08:07:43,297 - RS [INFO] - 17/20
+2024-04-18 08:09:46,627 - RS [INFO] - 18/20
+2024-04-18 08:11:49,888 - RS [INFO] - 19/20
+2024-04-18 08:13:53,242 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-20.pth
+2024-04-18 08:15:15,432 - RS [INFO] - 0/20
+2024-04-18 08:17:18,792 - RS [INFO] - 1/20
+2024-04-18 08:19:21,980 - RS [INFO] - 2/20
+2024-04-18 08:21:24,845 - RS [INFO] - 3/20
+2024-04-18 08:23:28,121 - RS [INFO] - 4/20
+2024-04-18 08:25:31,064 - RS [INFO] - 5/20
+2024-04-18 08:27:34,388 - RS [INFO] - 6/20
+2024-04-18 08:29:37,459 - RS [INFO] - 7/20
+2024-04-18 08:31:40,404 - RS [INFO] - 8/20
+2024-04-18 08:33:43,244 - RS [INFO] - 9/20
+2024-04-18 08:35:46,282 - RS [INFO] - 10/20
+2024-04-18 08:37:49,349 - RS [INFO] - 11/20
+2024-04-18 08:39:52,123 - RS [INFO] - 12/20
+2024-04-18 08:41:55,219 - RS [INFO] - 13/20
+2024-04-18 08:43:58,539 - RS [INFO] - 14/20
+2024-04-18 08:46:01,592 - RS [INFO] - 15/20
+2024-04-18 08:48:04,986 - RS [INFO] - 16/20
+2024-04-18 08:50:07,812 - RS [INFO] - 17/20
+2024-04-18 08:52:11,290 - RS [INFO] - 18/20
+2024-04-18 08:54:14,301 - RS [INFO] - 19/20
+2024-04-18 08:56:17,389 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-21.pth
+2024-04-18 08:57:39,308 - RS [INFO] - 0/20
+2024-04-18 08:59:42,836 - RS [INFO] - 1/20
+2024-04-18 09:01:46,043 - RS [INFO] - 2/20
+2024-04-18 09:03:48,891 - RS [INFO] - 3/20
+2024-04-18 09:05:52,220 - RS [INFO] - 4/20
+2024-04-18 09:07:55,353 - RS [INFO] - 5/20
+2024-04-18 09:09:58,563 - RS [INFO] - 6/20
+2024-04-18 09:12:01,915 - RS [INFO] - 7/20
+2024-04-18 09:14:04,657 - RS [INFO] - 8/20
+2024-04-18 09:16:07,539 - RS [INFO] - 9/20
+2024-04-18 09:18:10,249 - RS [INFO] - 10/20
+2024-04-18 09:20:13,062 - RS [INFO] - 11/20
+2024-04-18 09:22:15,970 - RS [INFO] - 12/20
+2024-04-18 09:24:18,534 - RS [INFO] - 13/20
+2024-04-18 09:26:21,588 - RS [INFO] - 14/20
+2024-04-18 09:28:24,532 - RS [INFO] - 15/20
+2024-04-18 09:30:27,894 - RS [INFO] - 16/20
+2024-04-18 09:32:30,802 - RS [INFO] - 17/20
+2024-04-18 09:34:34,143 - RS [INFO] - 18/20
+2024-04-18 09:36:37,444 - RS [INFO] - 19/20
+2024-04-18 09:38:41,429 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-22.pth
+2024-04-18 09:40:03,097 - RS [INFO] - 0/20
+2024-04-18 09:42:06,564 - RS [INFO] - 1/20
+2024-04-18 09:44:09,951 - RS [INFO] - 2/20
+2024-04-18 09:46:12,948 - RS [INFO] - 3/20
+2024-04-18 09:48:16,061 - RS [INFO] - 4/20
+2024-04-18 09:50:18,866 - RS [INFO] - 5/20
+2024-04-18 09:52:21,859 - RS [INFO] - 6/20
+2024-04-18 09:54:25,214 - RS [INFO] - 7/20
+2024-04-18 09:56:28,267 - RS [INFO] - 8/20
+2024-04-18 09:58:31,232 - RS [INFO] - 9/20
+2024-04-18 10:00:34,253 - RS [INFO] - 10/20
+2024-04-18 10:02:37,010 - RS [INFO] - 11/20
+2024-04-18 10:04:40,019 - RS [INFO] - 12/20
+2024-04-18 10:06:42,939 - RS [INFO] - 13/20
+2024-04-18 10:08:45,951 - RS [INFO] - 14/20
+2024-04-18 10:10:49,093 - RS [INFO] - 15/20
+2024-04-18 10:12:52,286 - RS [INFO] - 16/20
+2024-04-18 10:14:55,374 - RS [INFO] - 17/20
+2024-04-18 10:16:58,116 - RS [INFO] - 18/20
+2024-04-18 10:19:01,165 - RS [INFO] - 19/20
+2024-04-18 10:21:03,985 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\zurich\unetplusplus-zurich-23.pth
+2024-04-18 10:22:26,147 - RS [INFO] - 0/20
+2024-04-19 16:05:44,676 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-19 16:05:44,740 - RS [INFO] - Found gpu 0, used memory 2867986432.
+2024-04-19 16:05:44,748 - RS [INFO] - Running with args:
+2024-04-19 16:05:44,748 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': False, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/zurich/unetplusplus-zurich-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-19 16:05:44,748 - RS [INFO] - Seeds: [1111]
+2024-04-19 16:05:44,954 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-19 16:05:44,954 - RS [INFO] - not successful load weight
+2024-04-19 16:05:44,954 - RS [INFO] - 0/20

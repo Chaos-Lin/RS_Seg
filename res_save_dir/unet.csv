@@ -1,0 +1,2 @@
+modal,data,loss,pix_acc,mean_iou,freq_iou
+unet,berlin_0,"(50.62, 2.1)","(23.0, 1.36)","(14.39, 8.93)","(24.74, 17.48)"

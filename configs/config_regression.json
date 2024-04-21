@@ -1,0 +1,122 @@
+{
+  "datasetCommonParams": {
+    "dataset_root_dir": "D:/Search/Remote sensing/Dataset",
+    "berlin": {
+    },
+    "chicago": {
+    },
+    "zurich": {
+    },
+    "water": {
+
+    },
+      "forest": {
+
+      }
+  },
+  "unet": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 16,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "unetplusplus": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 16,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "u2net": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "segnet": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "deeplabv3p": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  }
+}

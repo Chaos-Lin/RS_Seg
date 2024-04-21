@@ -1,0 +1,15 @@
+2024-04-17 16:00:48,852 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 16:00:48,895 - RS [INFO] - Found gpu 0, used memory 1873772544.
+2024-04-17 16:00:48,897 - RS [INFO] - Running with args:
+2024-04-17 16:00:48,897 - RS [INFO] - {'model_name': 'deeplabv3p', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/deeplabv3p/zurich/deeplabv3p-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 16:00:48,897 - RS [INFO] - Seeds: [1111]
+2024-04-17 16:01:11,398 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 16:01:11,433 - RS [INFO] - Found gpu 0, used memory 1873772544.
+2024-04-17 16:01:11,435 - RS [INFO] - Running with args:
+2024-04-17 16:01:11,435 - RS [INFO] - {'model_name': 'deeplabv3p', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/deeplabv3p/zurich/deeplabv3p-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 16:01:11,435 - RS [INFO] - Seeds: [1111]
+2024-04-17 16:01:36,562 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 16:01:36,615 - RS [INFO] - Found gpu 0, used memory 1873772544.
+2024-04-17 16:01:36,617 - RS [INFO] - Running with args:
+2024-04-17 16:01:36,618 - RS [INFO] - {'model_name': 'deeplabv3p', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/deeplabv3p/zurich/deeplabv3p-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 16:01:36,618 - RS [INFO] - Seeds: [1111]

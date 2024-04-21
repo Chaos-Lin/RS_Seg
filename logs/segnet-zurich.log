@@ -1,0 +1,54 @@
+2024-04-17 16:07:48,133 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 16:07:48,174 - RS [INFO] - Found gpu 0, used memory 1882177536.
+2024-04-17 16:07:48,175 - RS [INFO] - Running with args:
+2024-04-17 16:07:48,175 - RS [INFO] - {'model_name': 'segnet', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/segnet/zurich/segnet-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 16:07:48,179 - RS [INFO] - Seeds: [1111]
+2024-04-17 16:08:47,363 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 16:08:47,405 - RS [INFO] - Found gpu 0, used memory 1881849856.
+2024-04-17 16:08:47,406 - RS [INFO] - Running with args:
+2024-04-17 16:08:47,407 - RS [INFO] - {'model_name': 'segnet', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/segnet/zurich/segnet-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 16:08:47,407 - RS [INFO] - Seeds: [1111]
+2024-04-17 16:08:47,624 - RS [INFO] - The model has 29592579 trainable parameters
+2024-04-17 16:09:06,003 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 16:09:06,042 - RS [INFO] - Found gpu 0, used memory 1881849856.
+2024-04-17 16:09:06,043 - RS [INFO] - Running with args:
+2024-04-17 16:09:06,043 - RS [INFO] - {'model_name': 'segnet', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/segnet/zurich/segnet-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 16:09:06,043 - RS [INFO] - Seeds: [1111]
+2024-04-17 16:09:06,260 - RS [INFO] - The model has 29592579 trainable parameters
+2024-04-17 16:09:06,260 - RS [INFO] - not successful load weight
+2024-04-17 16:09:06,260 - RS [INFO] - 0/20
+2024-04-17 16:10:40,879 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 16:10:40,917 - RS [INFO] - Found gpu 0, used memory 1863483392.
+2024-04-17 16:10:40,918 - RS [INFO] - Running with args:
+2024-04-17 16:10:40,918 - RS [INFO] - {'model_name': 'segnet', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/segnet/zurich/segnet-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 16:10:40,918 - RS [INFO] - Seeds: [1111]
+2024-04-17 16:10:41,139 - RS [INFO] - The model has 29592579 trainable parameters
+2024-04-17 16:10:41,139 - RS [INFO] - not successful load weight
+2024-04-17 16:10:41,139 - RS [INFO] - 0/20
+2024-04-17 16:12:42,411 - RS [INFO] - 1/20
+2024-04-17 16:14:43,291 - RS [INFO] - 2/20
+2024-04-17 16:16:43,975 - RS [INFO] - 3/20
+2024-04-17 16:18:44,758 - RS [INFO] - 4/20
+2024-04-17 16:20:46,374 - RS [INFO] - 5/20
+2024-04-17 16:22:48,985 - RS [INFO] - 6/20
+2024-04-17 16:24:52,049 - RS [INFO] - 7/20
+2024-04-17 16:26:54,964 - RS [INFO] - 8/20
+2024-04-17 16:28:58,000 - RS [INFO] - 9/20
+2024-04-17 16:31:01,817 - RS [INFO] - 10/20
+2024-04-17 16:33:07,734 - RS [INFO] - 11/20
+2024-04-17 16:35:14,526 - RS [INFO] - 12/20
+2024-04-17 16:37:24,672 - RS [INFO] - 13/20
+2024-04-17 16:39:30,443 - RS [INFO] - 14/20
+2024-04-17 16:41:36,009 - RS [INFO] - 15/20
+2024-04-17 16:43:39,803 - RS [INFO] - 16/20
+2024-04-17 16:45:43,462 - RS [INFO] - 17/20
+2024-04-17 16:48:11,557 - RS [INFO] - 18/20
+2024-04-17 16:50:15,268 - RS [INFO] - 19/20
+2024-04-17 16:52:18,885 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\segnet\zurich\segnet-zurich-CL-1.pth
+2024-04-17 17:04:24,348 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-17 17:04:24,400 - RS [INFO] - Found gpu 0, used memory 1855107072.
+2024-04-17 17:04:24,401 - RS [INFO] - Running with args:
+2024-04-17 17:04:24,401 - RS [INFO] - {'model_name': 'segnet', 'dataset_name': 'zurich', 'train_ratio': 0.8, 'batch_size': 8, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\zurich', 'is_color': True, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/segnet/zurich/segnet-zurich-CL-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-17 17:04:24,401 - RS [INFO] - Seeds: [1111]
+2024-04-17 17:04:24,630 - RS [INFO] - The model has 29592579 trainable parameters
+2024-04-17 17:04:24,630 - RS [INFO] - not successful load weight
