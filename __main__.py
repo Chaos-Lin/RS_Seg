@@ -7,10 +7,12 @@ def parse_args():
     # 解析命令行参数
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('-m', '--model', type=str, default='unetplusplus', help='Name of model',
-                        choices=['unet', 'unetplusplus', 'u2net', 'segnet', 'hrnet'])
-    parser.add_argument('-d', '--dataset', type=str, default='forest',
-                        choices=['berlin', 'zurich', 'chicago', 'water', 'forest'], help='Name of dataset')
+    parser.add_argument('-m', '--model', type=str, default='bisenetv1', help='Name of model',
+                        choices=['unet', 'unetplusplus', 'u2net', 'segnet',"bisenetv1", "bisenetv2", 'hrnet', 'alexnet'])
+    parser.add_argument('-d', '--dataset', type=str, default='LoveDA',
+                        choices=['berlin', 'zurich', 'chicago', 'water', 'forest', 'UCMerced', "LoveDA"], help='Name of dataset')
+    parser.add_argument('--mode', type=str, default='InstanceSeg', help='selection of task',
+                        choices=['segmentation', 'classification', "InstanceSeg"])
     parser.add_argument('-c', '--config', type=str, default='',
                         help='Path to config file. If not specified, default config file will be used.')
     parser.add_argument('-t', '--tune', action='store_true', default=False,
@@ -32,7 +34,7 @@ def parse_args():
     parser.add_argument('-g', '--gpu-ids', action='append', default=[],
                         help='Specify which gpus to use. If an empty list is supplied, will automatically assign to the most memory-free gpu. \
                               Currently only support single gpu. Default: []')
-    parser.add_argument('-e', '--super-epoch', type=int, default=0, help='')
+    parser.add_argument('-e', '--super-epoch', type=int, default=12, help='')
     parser.add_argument('-cl', '--color', type=bool, default=False, help='')
 
     return parser.parse_args()
@@ -45,6 +47,7 @@ if __name__ == '__main__':
         model_name=cmd_args.model,
         dataset_name=cmd_args.dataset,
         config_file=cmd_args.config,
+        mode=cmd_args.mode,
         seeds=cmd_args.seeds,
         model_save_dir=cmd_args.model_save_dir,
         res_save_dir=cmd_args.res_save_dir,

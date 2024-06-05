@@ -1,0 +1,4 @@
+res_save_dir/
+train_image/
+model_save_dir/
+logs/

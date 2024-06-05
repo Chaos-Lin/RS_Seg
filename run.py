@@ -6,17 +6,17 @@ import numpy as np
 import pandas as pd
 import torch
 from torch import optim
+import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader
 
 from data_loader import *
-from net import *
 
 import os
 from pathlib import Path
 
 from config import get_config_regression
 from utils import setup_seed, count_parameters, assign_gpu
-from data_loader import MyDataset
+from data_loader import MyDataset, INSDataset
 from models import AMIO
 from trains import ATIO
 
@@ -51,7 +51,7 @@ def _set_logger(log_dir, model_name, dataset_name, verbose_level):
 
 # 先不写调参的部分
 def RS_run(model_name: str, dataset_name: str, config_file: str = "",
-        config: dict = None, seeds: list = [],
+        mode="segmentation", seeds: list = [ ],
         num_workers: int = 0, verbose_level: int = 1,
         gpu_ids:list=[0],
         model_save_dir: str = Path(__file__).parent / "saved_models",
@@ -69,9 +69,13 @@ def RS_run(model_name: str, dataset_name: str, config_file: str = "",
     if config_file != "":
         config_file = Path(config_file)
     else:
-        config_file = Path(__file__).parent / "configs" / "config_regression.json"
+        config_file = Path(__file__).parent / "configs" / "config.json"
     if not config_file.is_file():
         raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), config_file)
+
+    args = get_config_regression(model_name, dataset_name, config_file)
+    if args["mode"] != mode:
+        raise ValueError("mode does not match")
     if model_save_dir == "":
         model_save_dir = Path(__file__).parent / "model_save_dir" / model_name / dataset_name
     Path(model_save_dir).mkdir(parents=True, exist_ok=True)
@@ -83,18 +87,22 @@ def RS_run(model_name: str, dataset_name: str, config_file: str = "",
     Path(log_dir).mkdir(parents=True, exist_ok=True)
 
     seeds = seeds if seeds !=[] else [1111
-                                      # ,2222, 3333, 4444
+                                      ,2222, 3333, 4444
                                       ]
 
     logger = _set_logger(log_dir, model_name, dataset_name, verbose_level)
     logger.info("======================================== Program Start ========================================")
-
-    args = get_config_regression(model_name, dataset_name, config_file)
     args['is_color'] = is_color
     args['is_seeds'] = is_seeds
     args['super_epoch']=super_epoch
     if is_color:
         args['model_save_path'] = Path(model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-CL-{super_epoch}.pth"
+    elif mode == "classification":
+        args['model_save_path'] = Path(
+            model_save_dir) / f"{args['model_name']}-{args['dataset_name']}.pth"
+    elif mode == "InstanceSeg":
+        args['model_save_path'] = Path(
+            model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-{super_epoch}.pth"
     else:
         args['model_save_path'] = Path(
             model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-{super_epoch}.pth"
@@ -143,78 +151,199 @@ def RS_run(model_name: str, dataset_name: str, config_file: str = "",
     else:
         seed = seeds[0]
         setup_seed(seed)
-        data_loader = MyDataset(args)
-        # 划分数据集为训练集和测试集
-        train_dataset, test_dataset = data_loader.split_dataset(split_ratio=args['train_ratio'])
-        # 加载数据集
-        train_dataloader = DataLoader(train_dataset, batch_size=args['batch_size'], shuffle=True)
-        test_dataloader = DataLoader(test_dataset, batch_size=args['batch_size'], shuffle=True)
+        # dataloader
+        if mode == "segmentation":
+            data_loader = MyDataset().getDataset(args)
+            # 划分数据集为训练集和测试集
+            train_dataset, test_dataset = data_loader.split_dataset(split_ratio=args['train_ratio'])
+            # 加载数据集
+            train_dataloader = DataLoader(train_dataset, batch_size=args['batch_size'], shuffle=True)
+            test_dataloader = DataLoader(test_dataset, batch_size=args['batch_size'], shuffle=True)
 
-        model = AMIO(args).to(args['device'])
-        logger.info(f'The model has {count_parameters(model)} trainable parameters')
-        trainer = ATIO().getTrain(args)
+            model = AMIO(args).to(args['device'])
+            logger.info(f'The model has {count_parameters(model)} trainable parameters')
+            trainer = ATIO().getTrain(args)
 
-        epoch = 0
-        if os.path.exists(args['model_save_path']):
-            model.load_state_dict(torch.load(args['model_save_path']))
-            logger.info('successful load weight')
-        else:
-            logger.info('not successful load weight')
-
-        super_epoch += 1
-        args['super_epoch'] = super_epoch
-        if is_color:
-            args['model_save_path'] = Path(
-                model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-CL-{super_epoch}.pth"
-        else:
-            args['model_save_path'] = Path(
-                model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-{super_epoch}.pth"
-        trainer.set_args(args)
-        while True:
-            model.train()
-            while epoch < args['max_epoch']:
-                logger.info(f'{epoch}/{args["max_epoch"]}')
-                trainer.do_train(model, train_dataloader, test_dataloader, epoch)
-                epoch += 1
-            torch.save(model.state_dict(), args['model_save_path'])
-            logger.info('save weight:' + str(args['model_save_path']))
-            model.eval()
-            model_results = trainer.do_test(model, test_dataloader)
             epoch = 0
-
-            csv_file = res_save_dir / f"{args['model_name']}.csv"
-            if os.path.isfile(csv_file):
-                df = pd.read_csv(csv_file)
+            if os.path.exists(args['model_save_path']):
+                model.load_state_dict(torch.load(args['model_save_path']))
+                logger.info('successful load weight')
             else:
-                df = pd.DataFrame(columns=['modal', 'data', 'loss', 'pix_acc', 'mean_iou', 'freq_iou'])
-            res = [f"{args['model_name']}"]
-            if is_color:
-                res.append(f"{args['dataset_name']}_CL_{args['super_epoch']}")
-            else:
-                res.append(f"{args['dataset_name']}_BW_{args['super_epoch']}")
-            criterions = list(model_results.keys())
-            for c in criterions:
-                # values = model_results[c]
-                values = []
-                for tensor in model_results[c]:
-                    tensor_cpu = tensor.cpu().numpy()
-                    values.append(tensor_cpu)
-                mean = round(np.mean(values) * 100, 2)
-                std = round(np.std(values) * 100, 2)
-                res.append((mean, std))
-            df.loc[len(df)] = res
-            df.to_csv(csv_file, index=None)
+                logger.info('not successful load weight')
 
             super_epoch += 1
             args['super_epoch'] = super_epoch
-            args['model_save_path'] = Path(model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-{super_epoch}.pth"
+            if is_color:
+                args['model_save_path'] = Path(
+                    model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-CL-{super_epoch}.pth"
+            else:
+                args['model_save_path'] = Path(
+                    model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-{super_epoch}.pth"
             trainer.set_args(args)
 
-        # 其实都运行不到这里，可以设置一个条件
-        del model
-        torch.cuda.empty_cache()
-        gc.collect()
-        time.sleep(1)
+            while True:
+                model.train()
+                while epoch < args['max_epoch']:
+                    logger.info(f'{epoch}/{args["max_epoch"]}')
+                    trainer.do_train(model, train_dataloader, test_dataloader, epoch)
+                    epoch += 1
+                torch.save(model.state_dict(), args['model_save_path'])
+                logger.info('save weight:' + str(args['model_save_path']))
+                model.eval()
+                model_results = trainer.do_test(model, test_dataloader)
+                epoch = 0
+
+                csv_file = res_save_dir / f"{args['model_name']}.csv"
+                if os.path.isfile(csv_file):
+                    df = pd.read_csv(csv_file)
+                else:
+                    df = pd.DataFrame(columns=['modal', 'data', 'loss', 'pix_acc', 'mean_iou', 'freq_iou'])
+                res = [f"{args['model_name']}"]
+                if is_color:
+                    res.append(f"{args['dataset_name']}_CL_{args['super_epoch']}")
+                else:
+                    res.append(f"{args['dataset_name']}_BW_{args['super_epoch']}")
+                criterions = list(model_results.keys())
+                for c in criterions:
+                    # values = model_results[c]
+                    values = []
+                    for tensor in model_results[c]:
+                        tensor_cpu = tensor.cpu().numpy()
+                        values.append(tensor_cpu)
+                    mean = round(np.mean(values) * 100, 2)
+                    std = round(np.std(values) * 100, 2)
+                    res.append((mean, std))
+                df.loc[len(df)] = res
+                df.to_csv(csv_file, index=None)
+
+                super_epoch += 1
+                args['super_epoch'] = super_epoch
+                args['model_save_path'] = Path(model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-{super_epoch}.pth"
+                trainer.set_args(args)
+            del model
+            torch.cuda.empty_cache()
+            gc.collect()
+            time.sleep(1)
+
+        elif mode == "classification":
+            train_dataset = MyDataset().getDataset(args, "train")
+            eval_dataset = MyDataset().getDataset(args, "eval")
+            test_dataset = MyDataset().getDataset(args, "test")
+            train_dataloader = DataLoader(train_dataset, batch_size=args['batch_size'], shuffle=True)
+            eval_dataloader = DataLoader(eval_dataset, batch_size=args['batch_size'], shuffle=True)
+            test_dataloader = DataLoader(test_dataset, batch_size=args['batch_size'], shuffle=True)
+
+            model = AMIO(args).to(args['device'])
+            logger.info(f'The model has {count_parameters(model)} trainable parameters')
+            trainer = ATIO().getTrain(args)
+
+            if os.path.exists(args['model_save_path']):
+                model.load_state_dict(torch.load(args['model_save_path']))
+                logger.info('successful load weight')
+            else:
+                logger.info('not successful load weight')
+
+            results = trainer.do_train(model, train_dataloader, eval_dataloader, return_epoch_results=True)
+
+            plt.plot(results['train_loss'], label="train:")
+            plt.plot(results['eval_loss'], label="eval:")
+            plt.title(f'losses of seed {seed}')
+            plt.xlabel('Epoch')
+            plt.ylabel('Loss')
+            plt.legend()
+            plt.show()
+
+            plt.plot(results['train_acc'], label="train:")
+            plt.plot(results['eval_acc'], label="eval:")
+            plt.title(f'acc of seed {seed}')
+            plt.xlabel('Epoch')
+            plt.ylabel('Acc')
+            plt.legend()
+            plt.show()
+
+        elif mode == "InstanceSeg":
+            place = "Urban"
+            train_dataset = INSDataset(args, "Train", place)
+            eval_dataset = INSDataset(args, "Val", place)
+            test_dataset = INSDataset(args, "Test", place)
+
+            train_dataloader = DataLoader(train_dataset, batch_size=args['batch_size'], shuffle=True)
+            eval_dataloader = DataLoader(eval_dataset, batch_size=args['batch_size'], shuffle=True)
+            # test_dataloader = DataLoader(test_dataset, batch_size=args['batch_size'], shuffle=True)
+
+            model = AMIO(args).to(args['device'])
+            logger.info(f'The model has {count_parameters(model)} trainable parameters')
+            trainer = ATIO().getTrain(args)
+
+            epoch = 0
+            if os.path.exists(args['model_save_path']):
+                model.load_state_dict(torch.load(args['model_save_path']))
+                logger.info('successful load weight')
+            else:
+                logger.info('not successful load weight')
+
+            super_epoch += 1
+            args['super_epoch'] = super_epoch
+            args['model_save_path'] = Path(
+                    model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-{super_epoch}.pth"
+
+            trainer.set_args(args)
+
+            while True:
+                # model.train()
+                # while epoch < args['max_epoch']:
+                #     logger.info(f'{epoch}/{args["max_epoch"]}')
+                #     trainer.do_train(model, train_dataloader, eval_dataloader, epoch)
+                #     epoch += 1
+                # torch.save(model.state_dict(), args['model_save_path'])
+                # logger.info('save weight:' + str(args['model_save_path']))
+                # model.eval()
+                # model_results = trainer.do_test(model, eval_dataloader)
+                trainer.pred(model, eval_dataloader)
+
+                epoch = 0
+                csv_file = res_save_dir / f"{args['model_name']}.csv"
+                if os.path.isfile(csv_file):
+                    df = pd.read_csv(csv_file)
+                else:
+                    clo = ['modal', 'data', 'loss', 'pix_acc', 'mean_iou', 'freq_iou',
+                           '0-background', '1-uninterested', '2-building', '3-road',
+                           '4-water', '5-barren', '6-forest', '7-agricultural']
+                    df = pd.DataFrame(columns=clo)
+                res = [f"{args['model_name']}"]
+                res.append(f"{args['dataset_name']}-{args['super_epoch']}")
+                criterions = list(model_results.keys())
+                for c in criterions:
+                    values = model_results[c]
+                    # values = []
+                    # for tensor in model_results[c]:
+                    #     tensor_cpu = tensor.cpu().numpy()
+                    #     values.append(tensor_cpu)
+                    mean = round(np.mean(values) * 100, 2)
+                    std = round(np.std(values) * 100, 2)
+                    res.append((mean, std))
+                df.loc[len(df)] = res
+                df.to_csv(csv_file, index=None)
+
+                super_epoch += 1
+                args['super_epoch'] = super_epoch
+                args['model_save_path'] = Path(
+                    model_save_dir) / f"{args['model_name']}-{args['dataset_name']}-{super_epoch}.pth"
+                trainer.set_args(args)
+            del model
+            torch.cuda.empty_cache()
+            gc.collect()
+            time.sleep(1)
+        else:
+            raise ValueError(f"no such mode: {mode}")
+
+
+
+
+
+
+
+
 
 
 def _run(args, num_workers=4, is_tune=False):

@@ -7,7 +7,7 @@ import pynvml
 import logging
 
 logger = logging.getLogger('RS')
-def keep_image_size_open(path,size=(256,256)):
+def keep_image_size_open(path,size=256):
     img = Image.open(path)
     # 打开图片
     temp = max(img.size)
@@ -16,7 +16,8 @@ def keep_image_size_open(path,size=(256,256)):
     # 创建一个长边的四角形
     mask.paste(img,(0,0))
     # 将图片粘到四边形上
-    mask = mask.resize(size)
+    size_ = (size,size)
+    mask = mask.resize(size_)
     # 再把图片缩放
     return mask
 

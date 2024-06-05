@@ -27,3 +27,420 @@
 2024-04-21 20:19:24,274 - RS [INFO] - 19/20
 2024-04-21 20:21:56,502 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-1.pth
 2024-04-21 20:34:03,055 - RS [INFO] - 0/20
+2024-04-21 22:58:21,727 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-21 22:58:21,787 - RS [INFO] - Found gpu 0, used memory 2189422592.
+2024-04-21 22:58:21,793 - RS [INFO] - Running with args:
+2024-04-21 22:58:21,794 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'forest', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\forest', 'is_color': False, 'is_seeds': False, 'super_epoch': 1, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/forest/unetplusplus-forest-1.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-21 22:58:21,794 - RS [INFO] - Seeds: [1111]
+2024-04-21 22:58:22,001 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-21 22:58:22,063 - RS [INFO] - successful load weight
+2024-04-21 22:58:22,064 - RS [INFO] - 0/20
+2024-04-21 23:00:49,338 - RS [INFO] - 1/20
+2024-04-21 23:03:19,337 - RS [INFO] - 2/20
+2024-04-21 23:05:44,364 - RS [INFO] - 3/20
+2024-04-21 23:08:05,918 - RS [INFO] - 4/20
+2024-04-21 23:10:27,481 - RS [INFO] - 5/20
+2024-04-21 23:12:49,047 - RS [INFO] - 6/20
+2024-04-21 23:15:11,177 - RS [INFO] - 7/20
+2024-04-21 23:17:33,490 - RS [INFO] - 8/20
+2024-04-21 23:19:55,111 - RS [INFO] - 9/20
+2024-04-21 23:22:16,854 - RS [INFO] - 10/20
+2024-04-21 23:24:38,597 - RS [INFO] - 11/20
+2024-04-21 23:27:00,321 - RS [INFO] - 12/20
+2024-04-21 23:29:22,071 - RS [INFO] - 13/20
+2024-04-21 23:31:43,820 - RS [INFO] - 14/20
+2024-04-21 23:34:05,555 - RS [INFO] - 15/20
+2024-04-21 23:36:27,295 - RS [INFO] - 16/20
+2024-04-21 23:38:49,029 - RS [INFO] - 17/20
+2024-04-21 23:41:10,763 - RS [INFO] - 18/20
+2024-04-21 23:43:32,507 - RS [INFO] - 19/20
+2024-04-21 23:45:54,293 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-2.pth
+2024-04-21 23:57:23,498 - RS [INFO] - 0/20
+2024-04-21 23:59:45,371 - RS [INFO] - 1/20
+2024-04-22 00:02:06,919 - RS [INFO] - 2/20
+2024-04-22 00:04:28,433 - RS [INFO] - 3/20
+2024-04-22 00:06:49,955 - RS [INFO] - 4/20
+2024-04-22 00:09:11,480 - RS [INFO] - 5/20
+2024-04-22 00:11:33,004 - RS [INFO] - 6/20
+2024-04-22 00:13:54,540 - RS [INFO] - 7/20
+2024-04-22 00:16:16,105 - RS [INFO] - 8/20
+2024-04-22 00:18:37,666 - RS [INFO] - 9/20
+2024-04-22 00:20:59,225 - RS [INFO] - 10/20
+2024-04-22 00:23:20,786 - RS [INFO] - 11/20
+2024-04-22 00:25:42,338 - RS [INFO] - 12/20
+2024-04-22 00:28:03,902 - RS [INFO] - 13/20
+2024-04-22 00:30:25,460 - RS [INFO] - 14/20
+2024-04-22 00:32:47,024 - RS [INFO] - 15/20
+2024-04-22 00:35:08,576 - RS [INFO] - 16/20
+2024-04-22 00:37:30,133 - RS [INFO] - 17/20
+2024-04-22 00:39:51,708 - RS [INFO] - 18/20
+2024-04-22 00:42:13,273 - RS [INFO] - 19/20
+2024-04-22 00:44:34,872 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-3.pth
+2024-04-22 00:55:52,470 - RS [INFO] - 0/20
+2024-04-22 00:58:14,334 - RS [INFO] - 1/20
+2024-04-22 01:00:35,997 - RS [INFO] - 2/20
+2024-04-22 01:02:57,736 - RS [INFO] - 3/20
+2024-04-22 01:05:19,518 - RS [INFO] - 4/20
+2024-04-22 01:07:41,246 - RS [INFO] - 5/20
+2024-04-22 01:10:02,954 - RS [INFO] - 6/20
+2024-04-22 01:12:24,670 - RS [INFO] - 7/20
+2024-04-22 01:14:46,401 - RS [INFO] - 8/20
+2024-04-22 01:17:08,100 - RS [INFO] - 9/20
+2024-04-22 01:19:29,785 - RS [INFO] - 10/20
+2024-04-22 01:21:51,463 - RS [INFO] - 11/20
+2024-04-22 01:24:13,147 - RS [INFO] - 12/20
+2024-04-22 01:26:34,824 - RS [INFO] - 13/20
+2024-04-22 01:28:56,506 - RS [INFO] - 14/20
+2024-04-22 01:31:18,223 - RS [INFO] - 15/20
+2024-04-22 01:33:39,947 - RS [INFO] - 16/20
+2024-04-22 01:36:01,667 - RS [INFO] - 17/20
+2024-04-22 01:38:23,387 - RS [INFO] - 18/20
+2024-04-22 01:40:45,092 - RS [INFO] - 19/20
+2024-04-22 01:43:06,825 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-4.pth
+2024-04-22 01:54:30,553 - RS [INFO] - 0/20
+2024-04-22 01:56:52,274 - RS [INFO] - 1/20
+2024-04-22 01:59:13,952 - RS [INFO] - 2/20
+2024-04-22 02:01:35,499 - RS [INFO] - 3/20
+2024-04-22 02:03:57,045 - RS [INFO] - 4/20
+2024-04-22 02:06:18,595 - RS [INFO] - 5/20
+2024-04-22 02:08:40,147 - RS [INFO] - 6/20
+2024-04-22 02:11:01,698 - RS [INFO] - 7/20
+2024-04-22 02:13:23,245 - RS [INFO] - 8/20
+2024-04-22 02:15:44,798 - RS [INFO] - 9/20
+2024-04-22 02:18:06,342 - RS [INFO] - 10/20
+2024-04-22 02:20:27,893 - RS [INFO] - 11/20
+2024-04-22 02:22:49,437 - RS [INFO] - 12/20
+2024-04-22 02:25:10,942 - RS [INFO] - 13/20
+2024-04-22 02:27:32,449 - RS [INFO] - 14/20
+2024-04-22 02:29:53,980 - RS [INFO] - 15/20
+2024-04-22 02:32:15,529 - RS [INFO] - 16/20
+2024-04-22 02:34:37,079 - RS [INFO] - 17/20
+2024-04-22 02:36:58,635 - RS [INFO] - 18/20
+2024-04-22 02:39:20,175 - RS [INFO] - 19/20
+2024-04-22 02:41:41,771 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-5.pth
+2024-04-22 02:53:03,858 - RS [INFO] - 0/20
+2024-04-22 02:55:25,687 - RS [INFO] - 1/20
+2024-04-22 02:57:47,335 - RS [INFO] - 2/20
+2024-04-22 03:00:09,052 - RS [INFO] - 3/20
+2024-04-22 03:02:30,799 - RS [INFO] - 4/20
+2024-04-22 03:04:52,320 - RS [INFO] - 5/20
+2024-04-22 03:07:13,863 - RS [INFO] - 6/20
+2024-04-22 03:09:35,398 - RS [INFO] - 7/20
+2024-04-22 03:11:56,950 - RS [INFO] - 8/20
+2024-04-22 03:14:18,472 - RS [INFO] - 9/20
+2024-04-22 03:16:40,014 - RS [INFO] - 10/20
+2024-04-22 03:19:01,530 - RS [INFO] - 11/20
+2024-04-22 03:21:23,095 - RS [INFO] - 12/20
+2024-04-22 03:23:44,618 - RS [INFO] - 13/20
+2024-04-22 03:26:06,115 - RS [INFO] - 14/20
+2024-04-22 03:28:27,605 - RS [INFO] - 15/20
+2024-04-22 03:30:49,117 - RS [INFO] - 16/20
+2024-04-22 03:33:10,598 - RS [INFO] - 17/20
+2024-04-22 03:35:32,091 - RS [INFO] - 18/20
+2024-04-22 03:37:53,587 - RS [INFO] - 19/20
+2024-04-22 03:40:15,162 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-6.pth
+2024-04-22 03:51:36,091 - RS [INFO] - 0/20
+2024-04-22 03:53:57,916 - RS [INFO] - 1/20
+2024-04-22 03:56:19,541 - RS [INFO] - 2/20
+2024-04-22 03:58:41,171 - RS [INFO] - 3/20
+2024-04-22 04:01:02,805 - RS [INFO] - 4/20
+2024-04-22 04:03:24,437 - RS [INFO] - 5/20
+2024-04-22 04:05:46,078 - RS [INFO] - 6/20
+2024-04-22 04:08:07,716 - RS [INFO] - 7/20
+2024-04-22 04:10:29,366 - RS [INFO] - 8/20
+2024-04-22 04:12:50,999 - RS [INFO] - 9/20
+2024-04-22 04:15:12,662 - RS [INFO] - 10/20
+2024-04-22 04:17:34,313 - RS [INFO] - 11/20
+2024-04-22 04:19:55,978 - RS [INFO] - 12/20
+2024-04-22 04:22:17,639 - RS [INFO] - 13/20
+2024-04-22 04:24:39,305 - RS [INFO] - 14/20
+2024-04-22 04:27:01,015 - RS [INFO] - 15/20
+2024-04-22 04:29:22,712 - RS [INFO] - 16/20
+2024-04-22 04:31:44,383 - RS [INFO] - 17/20
+2024-04-22 04:34:06,058 - RS [INFO] - 18/20
+2024-04-22 04:36:27,719 - RS [INFO] - 19/20
+2024-04-22 04:38:49,467 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-7.pth
+2024-04-22 04:50:10,377 - RS [INFO] - 0/20
+2024-04-22 04:52:32,105 - RS [INFO] - 1/20
+2024-04-22 04:54:53,831 - RS [INFO] - 2/20
+2024-04-22 04:57:15,378 - RS [INFO] - 3/20
+2024-04-22 04:59:36,942 - RS [INFO] - 4/20
+2024-04-22 05:01:58,523 - RS [INFO] - 5/20
+2024-04-22 05:04:20,069 - RS [INFO] - 6/20
+2024-04-22 05:06:41,623 - RS [INFO] - 7/20
+2024-04-22 05:09:03,180 - RS [INFO] - 8/20
+2024-04-22 05:11:24,732 - RS [INFO] - 9/20
+2024-04-22 05:13:46,282 - RS [INFO] - 10/20
+2024-04-22 05:16:07,824 - RS [INFO] - 11/20
+2024-04-22 05:18:29,383 - RS [INFO] - 12/20
+2024-04-22 05:20:50,946 - RS [INFO] - 13/20
+2024-04-22 05:23:12,496 - RS [INFO] - 14/20
+2024-04-22 05:25:34,052 - RS [INFO] - 15/20
+2024-04-22 05:27:55,616 - RS [INFO] - 16/20
+2024-04-22 05:30:17,169 - RS [INFO] - 17/20
+2024-04-22 05:32:38,718 - RS [INFO] - 18/20
+2024-04-22 05:35:00,287 - RS [INFO] - 19/20
+2024-04-22 05:37:21,894 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-8.pth
+2024-04-22 05:48:46,173 - RS [INFO] - 0/20
+2024-04-22 05:51:07,980 - RS [INFO] - 1/20
+2024-04-22 05:53:29,550 - RS [INFO] - 2/20
+2024-04-22 05:55:51,123 - RS [INFO] - 3/20
+2024-04-22 05:58:12,703 - RS [INFO] - 4/20
+2024-04-22 06:00:34,271 - RS [INFO] - 5/20
+2024-04-22 06:02:55,838 - RS [INFO] - 6/20
+2024-04-22 06:05:17,412 - RS [INFO] - 7/20
+2024-04-22 06:07:38,980 - RS [INFO] - 8/20
+2024-04-22 06:10:00,549 - RS [INFO] - 9/20
+2024-04-22 06:12:22,125 - RS [INFO] - 10/20
+2024-04-22 06:14:43,703 - RS [INFO] - 11/20
+2024-04-22 06:17:05,269 - RS [INFO] - 12/20
+2024-04-22 06:19:26,846 - RS [INFO] - 13/20
+2024-04-22 06:21:48,427 - RS [INFO] - 14/20
+2024-04-22 06:24:10,002 - RS [INFO] - 15/20
+2024-04-22 06:26:31,582 - RS [INFO] - 16/20
+2024-04-22 06:28:53,148 - RS [INFO] - 17/20
+2024-04-22 06:31:14,685 - RS [INFO] - 18/20
+2024-04-22 06:33:36,222 - RS [INFO] - 19/20
+2024-04-22 06:35:57,805 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-9.pth
+2024-04-22 06:47:16,826 - RS [INFO] - 0/20
+2024-04-22 06:49:38,708 - RS [INFO] - 1/20
+2024-04-22 06:52:00,229 - RS [INFO] - 2/20
+2024-04-22 06:54:21,762 - RS [INFO] - 3/20
+2024-04-22 06:56:43,315 - RS [INFO] - 4/20
+2024-04-22 06:59:04,859 - RS [INFO] - 5/20
+2024-04-22 07:01:26,422 - RS [INFO] - 6/20
+2024-04-22 07:03:47,987 - RS [INFO] - 7/20
+2024-04-22 07:06:09,554 - RS [INFO] - 8/20
+2024-04-22 07:08:31,152 - RS [INFO] - 9/20
+2024-04-22 07:10:52,829 - RS [INFO] - 10/20
+2024-04-22 07:13:14,592 - RS [INFO] - 11/20
+2024-04-22 07:15:36,366 - RS [INFO] - 12/20
+2024-04-22 07:17:58,127 - RS [INFO] - 13/20
+2024-04-22 07:20:19,902 - RS [INFO] - 14/20
+2024-04-22 07:22:41,649 - RS [INFO] - 15/20
+2024-04-22 07:25:03,401 - RS [INFO] - 16/20
+2024-04-22 07:27:25,150 - RS [INFO] - 17/20
+2024-04-22 07:29:46,930 - RS [INFO] - 18/20
+2024-04-22 07:32:08,706 - RS [INFO] - 19/20
+2024-04-22 07:34:30,497 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-10.pth
+2024-04-22 07:45:47,707 - RS [INFO] - 0/20
+2024-04-22 07:48:09,608 - RS [INFO] - 1/20
+2024-04-22 07:50:31,162 - RS [INFO] - 2/20
+2024-04-22 07:52:52,712 - RS [INFO] - 3/20
+2024-04-22 07:55:14,282 - RS [INFO] - 4/20
+2024-04-22 07:57:35,850 - RS [INFO] - 5/20
+2024-04-22 07:59:57,457 - RS [INFO] - 6/20
+2024-04-22 08:02:19,044 - RS [INFO] - 7/20
+2024-04-22 08:04:40,614 - RS [INFO] - 8/20
+2024-04-22 08:07:02,183 - RS [INFO] - 9/20
+2024-04-22 08:09:23,741 - RS [INFO] - 10/20
+2024-04-22 08:11:45,316 - RS [INFO] - 11/20
+2024-04-22 08:14:06,888 - RS [INFO] - 12/20
+2024-04-22 08:16:28,479 - RS [INFO] - 13/20
+2024-04-22 08:18:50,048 - RS [INFO] - 14/20
+2024-04-22 08:21:11,621 - RS [INFO] - 15/20
+2024-04-22 08:23:33,200 - RS [INFO] - 16/20
+2024-04-22 08:25:54,778 - RS [INFO] - 17/20
+2024-04-22 08:28:16,356 - RS [INFO] - 18/20
+2024-04-22 08:30:37,933 - RS [INFO] - 19/20
+2024-04-22 08:32:59,570 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-11.pth
+2024-04-22 08:44:21,305 - RS [INFO] - 0/20
+2024-04-22 08:46:43,192 - RS [INFO] - 1/20
+2024-04-22 08:49:04,839 - RS [INFO] - 2/20
+2024-04-22 08:51:26,510 - RS [INFO] - 3/20
+2024-04-22 08:53:48,184 - RS [INFO] - 4/20
+2024-04-22 08:56:09,867 - RS [INFO] - 5/20
+2024-04-22 08:58:31,545 - RS [INFO] - 6/20
+2024-04-22 09:00:53,217 - RS [INFO] - 7/20
+2024-04-22 09:03:14,871 - RS [INFO] - 8/20
+2024-04-22 09:05:36,513 - RS [INFO] - 9/20
+2024-04-22 09:07:58,179 - RS [INFO] - 10/20
+2024-04-22 09:10:19,824 - RS [INFO] - 11/20
+2024-04-22 09:12:41,473 - RS [INFO] - 12/20
+2024-04-22 09:15:03,145 - RS [INFO] - 13/20
+2024-04-22 09:17:24,839 - RS [INFO] - 14/20
+2024-04-22 09:19:46,546 - RS [INFO] - 15/20
+2024-04-22 09:22:08,219 - RS [INFO] - 16/20
+2024-04-22 09:24:29,909 - RS [INFO] - 17/20
+2024-04-22 09:26:51,588 - RS [INFO] - 18/20
+2024-04-22 09:29:13,270 - RS [INFO] - 19/20
+2024-04-22 09:31:34,990 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-12.pth
+2024-04-22 09:43:04,352 - RS [INFO] - 0/20
+2024-04-22 09:43:26,405 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-22 09:43:26,456 - RS [INFO] - Found gpu 0, used memory 2074734592.
+2024-04-22 09:43:26,458 - RS [INFO] - Running with args:
+2024-04-22 09:43:26,458 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'forest', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\forest', 'is_color': False, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/forest/unetplusplus-forest-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-22 09:43:26,458 - RS [INFO] - Seeds: [1111]
+2024-04-22 09:43:26,628 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-22 09:43:26,629 - RS [INFO] - not successful load weight
+2024-04-22 09:43:26,630 - RS [INFO] - 0/20
+2024-04-22 09:43:42,792 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-22 09:43:42,829 - RS [INFO] - Found gpu 0, used memory 2074210304.
+2024-04-22 09:43:42,831 - RS [INFO] - Running with args:
+2024-04-22 09:43:42,831 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'forest', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\forest', 'is_color': False, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/forest/unetplusplus-forest-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-22 09:43:42,831 - RS [INFO] - Seeds: [1111]
+2024-04-22 09:43:43,003 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-22 09:43:43,004 - RS [INFO] - not successful load weight
+2024-04-22 09:43:43,005 - RS [INFO] - 0/20
+2024-04-22 11:44:51,066 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-22 11:44:51,111 - RS [INFO] - Found gpu 0, used memory 2055430144.
+2024-04-22 11:44:51,112 - RS [INFO] - Running with args:
+2024-04-22 11:44:51,113 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'forest', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\forest', 'is_color': False, 'is_seeds': False, 'super_epoch': 12, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/forest/unetplusplus-forest-12.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-22 11:44:51,113 - RS [INFO] - Seeds: [1111]
+2024-04-22 11:44:51,287 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-22 11:44:51,332 - RS [INFO] - successful load weight
+2024-04-22 11:44:51,333 - RS [INFO] - 0/20
+2024-04-22 11:47:15,541 - RS [INFO] - 1/20
+2024-04-22 11:49:37,704 - RS [INFO] - 2/20
+2024-04-22 11:51:59,855 - RS [INFO] - 3/20
+2024-04-22 11:54:22,034 - RS [INFO] - 4/20
+2024-04-22 11:56:44,171 - RS [INFO] - 5/20
+2024-04-22 11:59:06,326 - RS [INFO] - 6/20
+2024-04-22 12:01:28,498 - RS [INFO] - 7/20
+2024-04-22 12:03:50,669 - RS [INFO] - 8/20
+2024-04-22 12:06:12,836 - RS [INFO] - 9/20
+2024-04-22 12:08:34,998 - RS [INFO] - 10/20
+2024-04-22 12:10:57,165 - RS [INFO] - 11/20
+2024-04-22 12:13:19,343 - RS [INFO] - 12/20
+2024-04-22 12:15:41,515 - RS [INFO] - 13/20
+2024-04-22 12:18:03,740 - RS [INFO] - 14/20
+2024-04-22 12:20:25,873 - RS [INFO] - 15/20
+2024-04-22 12:22:48,054 - RS [INFO] - 16/20
+2024-04-22 12:25:10,221 - RS [INFO] - 17/20
+2024-04-22 12:27:32,397 - RS [INFO] - 18/20
+2024-04-22 12:29:54,586 - RS [INFO] - 19/20
+2024-04-22 12:32:16,803 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-13.pth
+2024-04-22 12:43:43,821 - RS [INFO] - 0/20
+2024-04-22 12:46:06,117 - RS [INFO] - 1/20
+2024-04-22 12:48:28,083 - RS [INFO] - 2/20
+2024-04-22 12:50:50,148 - RS [INFO] - 3/20
+2024-04-22 12:53:12,273 - RS [INFO] - 4/20
+2024-04-22 12:55:34,382 - RS [INFO] - 5/20
+2024-04-22 12:57:56,476 - RS [INFO] - 6/20
+2024-04-22 13:00:18,602 - RS [INFO] - 7/20
+2024-04-22 13:02:40,742 - RS [INFO] - 8/20
+2024-04-22 13:05:02,851 - RS [INFO] - 9/20
+2024-04-22 13:07:24,962 - RS [INFO] - 10/20
+2024-04-22 13:09:47,098 - RS [INFO] - 11/20
+2024-04-22 13:12:09,237 - RS [INFO] - 12/20
+2024-04-22 13:14:31,358 - RS [INFO] - 13/20
+2024-04-22 13:16:53,500 - RS [INFO] - 14/20
+2024-04-22 13:19:15,654 - RS [INFO] - 15/20
+2024-04-22 13:21:37,811 - RS [INFO] - 16/20
+2024-04-22 13:23:59,948 - RS [INFO] - 17/20
+2024-04-22 13:26:22,077 - RS [INFO] - 18/20
+2024-04-22 13:28:44,227 - RS [INFO] - 19/20
+2024-04-22 13:31:06,383 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-14.pth
+2024-04-22 13:42:52,487 - RS [INFO] - 0/20
+2024-04-22 17:47:04,137 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-22 17:47:04,181 - RS [INFO] - Found gpu 0, used memory 2216312832.
+2024-04-22 17:47:04,182 - RS [INFO] - Running with args:
+2024-04-22 17:47:04,183 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'forest', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/Remote sensing/Dataset\\forest', 'is_color': False, 'is_seeds': False, 'super_epoch': 14, 'model_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/model_save_dir/unetplusplus/forest/unetplusplus-forest-14.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/Remote sensing/MyRS/train_image')}
+2024-04-22 17:47:04,183 - RS [INFO] - Seeds: [1111]
+2024-04-22 17:47:04,360 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-22 17:47:04,413 - RS [INFO] - successful load weight
+2024-04-22 17:47:04,413 - RS [INFO] - 0/20
+2024-04-22 17:49:31,151 - RS [INFO] - 1/20
+2024-04-22 17:51:58,262 - RS [INFO] - 2/20
+2024-04-22 17:54:34,677 - RS [INFO] - 3/20
+2024-04-22 17:57:20,403 - RS [INFO] - 4/20
+2024-04-22 18:00:27,005 - RS [INFO] - 5/20
+2024-04-22 18:03:33,593 - RS [INFO] - 6/20
+2024-04-22 18:06:40,307 - RS [INFO] - 7/20
+2024-04-22 18:09:47,157 - RS [INFO] - 8/20
+2024-04-22 18:12:53,284 - RS [INFO] - 9/20
+2024-04-22 18:15:20,249 - RS [INFO] - 10/20
+2024-04-22 18:17:43,583 - RS [INFO] - 11/20
+2024-04-22 18:20:05,648 - RS [INFO] - 12/20
+2024-04-22 18:22:27,694 - RS [INFO] - 13/20
+2024-04-22 18:24:49,732 - RS [INFO] - 14/20
+2024-04-22 18:27:11,727 - RS [INFO] - 15/20
+2024-04-22 18:29:33,762 - RS [INFO] - 16/20
+2024-04-22 18:31:55,811 - RS [INFO] - 17/20
+2024-04-22 18:34:17,850 - RS [INFO] - 18/20
+2024-04-22 18:36:39,911 - RS [INFO] - 19/20
+2024-04-22 18:39:02,014 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-15.pth
+2024-04-22 18:50:57,829 - RS [INFO] - 0/20
+2024-04-22 18:53:20,131 - RS [INFO] - 1/20
+2024-04-22 18:55:42,163 - RS [INFO] - 2/20
+2024-04-22 18:58:04,180 - RS [INFO] - 3/20
+2024-04-22 19:00:26,192 - RS [INFO] - 4/20
+2024-04-22 19:02:48,201 - RS [INFO] - 5/20
+2024-04-22 19:05:10,217 - RS [INFO] - 6/20
+2024-04-22 19:07:32,225 - RS [INFO] - 7/20
+2024-04-22 19:09:54,272 - RS [INFO] - 8/20
+2024-04-22 19:12:16,463 - RS [INFO] - 9/20
+2024-04-22 19:14:38,625 - RS [INFO] - 10/20
+2024-04-22 19:17:00,643 - RS [INFO] - 11/20
+2024-04-22 19:19:22,691 - RS [INFO] - 12/20
+2024-04-22 19:21:44,708 - RS [INFO] - 13/20
+2024-04-22 19:24:06,728 - RS [INFO] - 14/20
+2024-04-22 19:26:28,759 - RS [INFO] - 15/20
+2024-04-22 19:28:50,896 - RS [INFO] - 16/20
+2024-04-22 19:31:12,952 - RS [INFO] - 17/20
+2024-04-22 19:33:34,959 - RS [INFO] - 18/20
+2024-04-22 19:35:56,977 - RS [INFO] - 19/20
+2024-04-22 19:38:19,032 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-16.pth
+2024-04-22 19:50:06,141 - RS [INFO] - 0/20
+2024-04-22 19:52:28,552 - RS [INFO] - 1/20
+2024-04-22 19:54:50,657 - RS [INFO] - 2/20
+2024-04-22 19:57:12,898 - RS [INFO] - 3/20
+2024-04-22 19:59:35,036 - RS [INFO] - 4/20
+2024-04-22 20:01:57,144 - RS [INFO] - 5/20
+2024-04-22 20:04:19,350 - RS [INFO] - 6/20
+2024-04-22 20:06:41,563 - RS [INFO] - 7/20
+2024-04-22 20:09:04,667 - RS [INFO] - 8/20
+2024-04-22 20:11:26,949 - RS [INFO] - 9/20
+2024-04-22 20:13:49,011 - RS [INFO] - 10/20
+2024-04-22 20:16:11,911 - RS [INFO] - 11/20
+2024-04-22 20:18:44,209 - RS [INFO] - 12/20
+2024-04-22 20:21:21,907 - RS [INFO] - 13/20
+2024-04-22 20:24:00,792 - RS [INFO] - 14/20
+2024-04-22 20:27:06,402 - RS [INFO] - 15/20
+2024-04-22 20:30:12,275 - RS [INFO] - 16/20
+2024-04-22 20:33:19,458 - RS [INFO] - 17/20
+2024-04-22 20:36:25,223 - RS [INFO] - 18/20
+2024-04-22 20:39:15,973 - RS [INFO] - 19/20
+2024-04-22 20:41:55,932 - RS [INFO] - save weight:D:\Search\Remote sensing\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-17.pth
+2024-04-22 20:55:31,067 - RS [INFO] - 0/20
+2024-04-22 20:58:10,533 - RS [INFO] - 1/20
+2024-04-25 16:12:45,239 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-25 16:12:45,280 - RS [INFO] - Found gpu 0, used memory 1677619200.
+2024-04-25 16:12:45,281 - RS [INFO] - Running with args:
+2024-04-25 16:12:45,282 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'forest', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/RS/Dataset\\forest', 'is_color': False, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/RS/MyRS/model_save_dir/unetplusplus/forest/unetplusplus-forest-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/RS/MyRS/train_image')}
+2024-04-25 16:12:45,282 - RS [INFO] - Seeds: [1111]
+2024-04-25 16:12:45,453 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-25 16:12:45,453 - RS [INFO] - not successful load weight
+2024-04-25 16:12:45,454 - RS [INFO] - 0/20
+2024-04-25 20:33:56,312 - RS [INFO] - ======================================== Program Start ========================================
+2024-04-25 20:33:56,370 - RS [INFO] - Found gpu 0, used memory 2139676672.
+2024-04-25 20:33:56,374 - RS [INFO] - Running with args:
+2024-04-25 20:33:56,374 - RS [INFO] - {'model_name': 'unetplusplus', 'dataset_name': 'forest', 'train_ratio': 0.8, 'batch_size': 16, 'learning_rate': 0.001, 'num_head': 8, 'max_epoch': 20, 'dataset_path': 'D:/Search/RS/Dataset\\forest', 'is_color': False, 'is_seeds': False, 'super_epoch': 0, 'model_save_path': WindowsPath('D:/Search/RS/MyRS/model_save_dir/unetplusplus/forest/unetplusplus-forest-0.pth'), 'device': device(type='cuda', index=0), 'image_save_path': WindowsPath('D:/Search/RS/MyRS/train_image')}
+2024-04-25 20:33:56,374 - RS [INFO] - Seeds: [1111]
+2024-04-25 20:33:56,620 - RS [INFO] - The model has 8361708 trainable parameters
+2024-04-25 20:33:56,620 - RS [INFO] - not successful load weight
+2024-04-25 20:33:56,622 - RS [INFO] - 0/20
+2024-04-25 20:36:24,321 - RS [INFO] - 1/20
+2024-04-25 20:38:48,986 - RS [INFO] - 2/20
+2024-04-25 20:41:15,631 - RS [INFO] - 3/20
+2024-04-25 20:43:44,570 - RS [INFO] - 4/20
+2024-04-25 20:46:10,328 - RS [INFO] - 5/20
+2024-04-25 20:48:36,176 - RS [INFO] - 6/20
+2024-04-25 20:51:03,320 - RS [INFO] - 7/20
+2024-04-25 20:53:29,880 - RS [INFO] - 8/20
+2024-04-25 20:55:56,044 - RS [INFO] - 9/20
+2024-04-25 20:58:23,620 - RS [INFO] - 10/20
+2024-04-25 21:00:54,661 - RS [INFO] - 11/20
+2024-04-25 21:03:25,743 - RS [INFO] - 12/20
+2024-04-25 21:05:59,137 - RS [INFO] - 13/20
+2024-04-25 21:08:30,310 - RS [INFO] - 14/20
+2024-04-25 21:11:01,300 - RS [INFO] - 15/20
+2024-04-25 21:13:31,915 - RS [INFO] - 16/20
+2024-04-25 21:15:57,051 - RS [INFO] - 17/20
+2024-04-25 21:18:21,185 - RS [INFO] - 18/20
+2024-04-25 21:20:45,415 - RS [INFO] - 19/20
+2024-04-25 21:23:10,138 - RS [INFO] - save weight:D:\Search\RS\MyRS\model_save_dir\unetplusplus\forest\unetplusplus-forest-1.pth
+2024-04-25 21:35:21,444 - RS [INFO] - 0/20
+2024-04-25 21:37:45,137 - RS [INFO] - 1/20
+2024-04-25 21:40:08,711 - RS [INFO] - 2/20
+2024-04-25 21:42:33,532 - RS [INFO] - 3/20
