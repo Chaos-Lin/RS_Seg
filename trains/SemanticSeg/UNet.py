@@ -8,11 +8,11 @@ from torchvision.utils import save_image
 import pandas as pd
 from tqdm import tqdm
 
-from metrics import Metrics
+from utils import Metrics
 
 from pathlib import Path
 
-logger = logging.getLogger('MMSA')
+logger = logging.getLogger('RS')
 
 
 class UNet():
@@ -32,14 +32,18 @@ class UNet():
 
         while True:
             # epochs += 1
-            pic_num = len(train_dataloader)/self.args.batch_size/10
+
             t = 0
             with tqdm(train_dataloader) as data_loader:
                 for i, (image, segment_image) in enumerate(data_loader):
                     image, segment_image = image.to(self.args.device), segment_image.to(self.args.device)
                     # 数据移动至设备
                     out_image = model(image).to(self.args.device)
+
+                    # out_image = out_image.to(self.args.device)
                     # 前向计算
+
+
                     loss = self.criterion(out_image, segment_image)
                     # 计算损失
                     opt.zero_grad()
@@ -49,7 +53,7 @@ class UNet():
                     opt.step()
                     # 更新梯度
 
-                    if i % pic_num == 0:
+                    if i % 30 == 0:
                         # 设置阈值
 
                         _image = image[0]
@@ -89,7 +93,7 @@ class UNet():
             'freq_iou': []
         }
         t = 0
-        pic_num = len(test_dataloader) / self.args.batch_size / 10
+
         with torch.no_grad():
             with tqdm(test_dataloader) as data_loader:
                 for i, (image, segment_image) in enumerate(data_loader):
@@ -109,7 +113,7 @@ class UNet():
                     # 阈值化操作
                     out_image = torch.where(out_image > threshold, torch.tensor(1.0), torch.tensor(0.0))
 
-                    if i % pic_num == 0:
+                    if i % 10 == 0:
                         # 展示照片
                         _image = image[0]
                         _segment_image = segment_image[0]

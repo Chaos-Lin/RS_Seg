@@ -5,7 +5,7 @@ from easydict import EasyDict as edict
 def get_config_regression(model_name: str, dataset_name: str, config_file: str = ""
 ) -> dict:
     if config_file == '':
-        config_file = 'configs/config_regression.json'
+        config_file = 'configs/config.json'
     with open(config_file, 'r') as f:
         config_all = json.load(f)
     model_common_args = config_all[model_name]['commonParams']

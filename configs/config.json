@@ -1,0 +1,389 @@
+{
+  "datasetCommonParams": {
+    "dataset_root_dir": "D:/Search/RS/Dataset",
+    "berlin": {
+    },
+    "chicago": {
+    },
+    "zurich": {
+    },
+    "water": {
+    },
+    "forest": {
+    },
+    "loveda": {
+      "num_classes": 8
+    },
+    "ucmerced": {
+      "num_classes": 21
+    }
+  },
+  "bisenetv1": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20,
+        "mode": "InstanceSeg"
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      },
+      "loveda": {
+        "patch_size": 256,
+        "overlap": 0,
+        "pic_size": 1024,
+        "num_classes": 8
+
+      }
+    }
+  },
+  "bisenetv2": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 16,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20,
+        "mode": "segmentation"
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "unetp": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 16,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20,
+        "mode": "segmentation"
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "unet": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 16,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20,
+        "mode": "segmentation"
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "unetplusplus": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 16,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20,
+        "mode": "segmentation"
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "u2net": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20,
+        "mode": "segmentation"
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "segnet": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20,
+        "mode": "segmentation"
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "deeplabv3p": {
+    "commonParams": {
+        "train_ratio": 0.8,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "num_head": 8,
+        "max_epoch": 20,
+        "mode": "segmentation"
+    },
+    "datasetParams": {
+      "zurich": {
+      },
+      "berlin": {
+      },
+      "chicago": {
+      },
+      "water": {
+      },
+      "forest": {
+      }
+    }
+  },
+  "alexnet": {
+    "commonParams": {
+      "batch_size": 256,
+      "learning_rate": 0.001,
+      "max_epoch": 20,
+      "input_size": 224,
+      "early_stop": 8,
+      "mode": "classification"
+    },
+    "datasetParams": {
+      "ucmerced": {}
+    }
+  },
+  "mobilevit": {
+    "commonParams": {
+      "mode": "classification",
+      "train_ratio": 0.8,
+      "batch_size": 16,
+      "learning_rate": 0.001,
+      "num_head": 8,
+      "max_epoch": 20,
+      "xx_small":{
+          "layer1": {
+            "out_channels": 16,
+            "expand_ratio": 2,
+            "num_blocks": 1,
+            "stride": 1,
+            "block_type": "mv2"
+          },
+          "layer2": {
+            "out_channels": 24,
+            "expand_ratio": 2,
+            "num_blocks": 3,
+            "stride": 2,
+            "block_type": "mv2"
+          },
+          "layer3": {
+                "out_channels": 48,
+                "transformer_channels": 64,
+                "ffn_dim": 128,
+                "transformer_blocks": 2,
+                "patch_h": 2,
+                "patch_w": 2,
+                "stride": 2,
+                "mv_expand_ratio": 2,
+                "num_heads": 4,
+                "block_type": "mobilevit"
+          },
+          "layer4": {
+                "out_channels": 64,
+                "transformer_channels": 80,
+                "ffn_dim": 160,
+                "transformer_blocks": 4,
+                "patch_h": 2,
+                "patch_w": 2,
+                "stride": 2,
+                "mv_expand_ratio": 2,
+                "num_heads": 4,
+                "block_type": "mobilevit"
+          },
+          "layer5": {
+                "out_channels": 80,
+                "transformer_channels": 96,
+                "ffn_dim": 192,
+                "transformer_blocks": 3,
+                "patch_h": 2,
+                "patch_w": 2,
+                "stride": 2,
+                "mv_expand_ratio": 2,
+                "num_heads": 4,
+                "block_type": "mobilevit"
+            },
+          "last_layer_exp_factor": 4,
+          "cls_dropout": 0.1
+      },
+      "x_small":{
+            "layer1": {
+                "out_channels": 32,
+                "expand_ratio": 4,
+                "num_blocks": 1,
+                "stride": 1,
+                "block_type": "mv2"
+            },
+            "layer2": {
+                "out_channels": 48,
+                "expand_ratio": 4,
+                "num_blocks": 3,
+                "stride": 2,
+                "block_type": "mv2"
+            },
+            "layer3": {
+                "out_channels": 64,
+                "transformer_channels": 96,
+                "ffn_dim": 192,
+                "transformer_blocks": 2,
+                "patch_h": 2,
+                "patch_w": 2,
+                "stride": 2,
+                "mv_expand_ratio": 4,
+                "num_heads": 4,
+                "block_type": "mobilevit"
+            },
+            "layer4": {
+                "out_channels": 80,
+                "transformer_channels": 120,
+                "ffn_dim": 240,
+                "transformer_blocks": 4,
+                "patch_h": 2,
+                "patch_w": 2,
+                "stride": 2,
+                "mv_expand_ratio": 4,
+                "num_heads": 4,
+                "block_type": "mobilevit"
+            },
+            "layer5": {
+                "out_channels": 96,
+                "transformer_channels": 144,
+                "ffn_dim": 288,
+                "transformer_blocks": 3,
+                "patch_h": 2,
+                "patch_w": 2,
+                "stride": 2,
+                "mv_expand_ratio": 4,
+                "num_heads": 4,
+                "block_type": "mobilevit"
+            },
+            "last_layer_exp_factor": 4,
+            "cls_dropout": 0.1
+      },
+      "small":{
+            "layer1": {
+                "out_channels": 32,
+                "expand_ratio": 4,
+                "num_blocks": 1,
+                "stride": 1,
+                "block_type": "mv2"
+            },
+            "layer2": {
+                "out_channels": 64,
+                "expand_ratio": 4,
+                "num_blocks": 3,
+                "stride": 2,
+                "block_type": "mv2"
+            },
+            "layer3": {
+                "out_channels": 96,
+                "transformer_channels": 144,
+                "ffn_dim": 288,
+                "transformer_blocks": 2,
+                "patch_h": 2,
+                "patch_w": 2,
+                "stride": 2,
+                "mv_expand_ratio": 4,
+                "num_heads": 4,
+                "block_type": "mobilevit"
+            },
+            "layer4": {
+                "out_channels": 128,
+                "transformer_channels": 192,
+                "ffn_dim": 384,
+                "transformer_blocks": 4,
+                "patch_h": 2,
+                "patch_w": 2,
+                "stride": 2,
+                "mv_expand_ratio": 4,
+                "num_heads": 4,
+                "block_type": "mobilevit"
+            },
+            "layer5": {
+                "out_channels": 160,
+                "transformer_channels": 240,
+                "ffn_dim": 480,
+                "transformer_blocks": 3,
+                "patch_h": 2,
+                "patch_w": 2,
+                "stride": 2,
+                "mv_expand_ratio": 4,
+                "num_heads": 4,
+                "block_type": "mobilevit"
+            },
+            "last_layer_exp_factor": 4,
+            "cls_dropout": 0.1}
+    },
+    "datasetParams":{}
+  }
+}

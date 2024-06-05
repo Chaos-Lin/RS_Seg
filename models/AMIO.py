@@ -2,7 +2,10 @@
 AMIO -- All Model in One
 """
 import torch.nn as nn
+
+from .Classification import MobileViT
 from .SemanticSeg import *
+from .Classification import *
 # from .SemanticSeg.UNet import UNet
 # from .multiTask import *
 # from .singleTask import *
@@ -21,7 +24,13 @@ class AMIO(nn.Module):
             'fcn': FCN,
             'encnet': ENCNet,
             'deeplabv3': DeepLabV3,
-            'deeplabv3p': DeepLabV3P
+            'deeplabv3p': DeepLabV3P,
+            "bisenetv1":BiSeNetV1,
+            "bisenetv2":BiSeNetV2,
+            # 'unetp':UnetP
+
+            'mobilevit': MobileViT,
+            'alexnet': AlexNet
 
 
         }

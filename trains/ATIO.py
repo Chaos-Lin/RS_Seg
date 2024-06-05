@@ -2,6 +2,7 @@
 ATIO -- All Trains in One
 """
 from .SemanticSeg import *
+from .Classification import *
 
 
 __all__ = ['ATIO']
@@ -14,6 +15,13 @@ class ATIO():
             'unetplusplus':UNet,
             'u2net':UNet,
             'segnet':UNet,
+            'unetp':UNet,
+            "bisenetv1": BiseNet,
+            "bisenetv2": BiseNet,
+
+            'alexnet':AlexNet,
+
+
 
 
         }
